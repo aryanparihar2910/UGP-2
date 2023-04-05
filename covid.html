@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="/assets/favicon-16x16.png">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Covid-19</title>
+</head>
+
+<body>
+    <section id="navbar" class="text-gray-600 body-font fixed z-[1] bg-gradient-to-r from-red-200 via-red-300 to-red-400 w-full">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+            <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+                <img class="w-12" src="assets/covid.png" alt="" srcset="">
+                <span class="ml-3 text-xl text-bold">SARS-COV-2</span>
+            </a>
+            <nav class="md:ml-auto flex text-white flex-wrap items-center text-base justify-center space-x-5">
+                <a href="#home" class=" cursor-pointer hover:scale-105 duration-200">Home</a>
+                <a href="#test" class=" cursor-pointer hover:scale-105 duration-200">Test</a>
+            </nav>
+
+        </div>
+    </section>
+
+    <section id="home" class="body-font w-full bg-gradient-to-b from-red-100 via-red-200 to-red-300">
+        <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+            <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+                <img class="object-cover object-center rounded" alt="hero" src="assets/covid2.png">
+            </div>
+            <div
+                class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+                <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
+                    How the model works?
+                </h1>
+                <p>About model</p>
+                <div class="mt-5 flex justify-center space-x-4">
+                    <button class="inline-flex text-white bg-black border-0 py-2 px-6 focus:outline-none hover:bg-gray-800 rounded-lg text-lg">Github</button>
+                    <a href="#test"><button class="inline-flex text-white bg-black border-0 py-2 px-6 focus:outline-none hover:bg-gray-800 rounded-lg text-lg">Deploy</button></a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
