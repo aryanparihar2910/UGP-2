@@ -12,51 +12,57 @@
 </head>
 
 <body>
-    <section id="navbar" class="z-[1] body-font bg-gradient-to-r from-gray-800 to-black w-full fixed">
-        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-            <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+    <section id="navbar" class="z-[1] body-font w-full fixed">
+        <div id="nabbar" class="container-fluid mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+            <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:ml-6 md:mb-0">
                 <img class="w-12" src="assets/iit.png" alt="" srcset="">
-                <span class="ml-3 text-xl text-white ">ME-291 Exploratory project</span>
+                <span class="ml-3 text-xl ">ME-291 Exploratory project</span>
             </a>
-            <nav class="md:ml-auto flex text-gray-500 flex-wrap items-center text-base justify-center">
+            <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
                 <a href="#home" class="mr-5 px-4 hover:scale-105 duration-200  cursor-pointer">Home</a>
+                <a href="#purpose" class="mr-5 px-4 hover:scale-105 duration-200  cursor-pointer">Purpose</a>
                 <a href="#projects" class="mr-5 px-4 hover:scale-105 duration-200  cursor-pointer">Projects</a>
                 <a href="#members" class="mr-5 px-4 hover:scale-105 duration-200  cursor-pointer">Members</a>
                 <a href="#footer" class="mr-5 px-4 hover:scale-105 duration-200  cursor-pointer">About</a>
             </nav>
-
         </div>
     </section>
 
-    <section id="home" class="body-font w-full bg-gradient-to-b from-gray-800 to-black">
+    <section id="home">
+        <div class="iitimage">
+        <img class="w-full h-screen" src="assets/bg.png" alt="" srcset="">
+        </div>
+    </section>
+
+    <section id="purpose" class="body-font w-full bg-[#f1f1f1]">
         <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
             <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
                 <img class="object-cover object-center rounded" alt="hero" src="assets/home.png">
             </div>
             <div
                 class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
-                <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-white underline underline-offset-4">
+                <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-black underline underline-offset-4">
                     Purpose
                 </h1>
-                <p class="text-gray-500">Our exploratory project's goal was to deploy machine learning models on our website to address a number of key areas of interest. By analysing medical data and risk factors, we hoped to predict the likelihood of various diseases, perform stress-strain analysis on materials and structures, and use object detection algorithms to identify and classify objects on roads. <br> <br> We hoped to provide valuable insights and information to users in a user-friendly and accessible manner, ultimately improving their decision-making capabilities and promoting informed choices by leveraging these techniques.</p>
+                <p class="text-gray-700">Our exploratory project's goal was to deploy machine learning models on our website to address a number of key areas of interest. By analysing medical data and risk factors, we hoped to predict the likelihood of various diseases, perform stress-strain analysis on materials and structures, and use object detection algorithms to identify and classify objects on roads. <br> <br> We hoped to provide valuable insights and information to users in a user-friendly and accessible manner, ultimately improving their decision-making capabilities and promoting informed choices by leveraging these techniques.</p>
                 <div class="mt-5 flex justify-center space-x-6">
-                    <button class="inline-flex bg-gray-200 text-black  border-0 py-2 px-6 focus:outline-none hover:bg-white rounded-xl hover:scale-105 duration-300 text-lg">Github</button>
-                    <button class="inline-flex bg-gray-200 text-black  border-0 py-2 px-6 focus:outline-none hover:bg-white rounded-xl hover:scale-105 duration-300 text-lg">Deploy</button>
+                    <button class="inline-flex  border-0 py-2 px-6 focus:outline-none text-white bg-[#731edb]  hover:bg-[#36205d] rounded-xl hover:scale-105 duration-300 text-lg">Github</button>
+                    <button class="inline-flex   border-0 py-2 px-6 focus:outline-none text-white bg-[#731edb]  hover:bg-[#36205d] rounded-xl hover:scale-105 duration-300 text-lg">Deploy</button>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="projects" class="text-gray-600 bg-gradient-to-b from-black to-gray-800 body-font overflow-hidden">
+    <section id="projects" class="text-gray-600 bg-gradient-to-r from-gray-100 to-gray-200 body-font overflow-hidden">
         <div class="container px-5 py-24 mx-auto ">
             <div class="flex flex-col text-center w-full mb-20">
-                <h1 class="sm:text-4xl text-3xl font-medium title-font text-white underline underline-offset-4">Projects</h1>
+                <h1 class="sm:text-4xl text-3xl font-medium title-font text-black underline underline-offset-4">Projects</h1>
             </div>
             <div class="flex md:justify-center flex-wrap -m-4">
                 <div class="p-4 xl:w-1/4 md:w-1/2 w-full hover:scale-105 duration-300">
-                    <div class="h-full p-6 rounded-lg border-2 border-gray-500 hover:border-white flex flex-col relative overflow-hidden">
-                        <h1 class="text-3xl text-gray-300 pb-4 mb-4 border-b border-gray-200 leading-none">e-Asptal</h1>
-                        <p class="flex items-center text-gray-300 mb-2">
+                    <div class="h-full p-6 rounded-lg border-2 border-gray-500 hover:border-[#731edb] flex flex-col relative overflow-hidden">
+                        <h1 class="text-3xl text-black pb-4 mb-4 border-b border-gray-700 leading-none">e-Asptal</h1>
+                        <p class="flex items-center text-gray-700 mb-2">
                             <span
                                 class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
                                 <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
@@ -65,7 +71,7 @@
                                 </svg>
                             </span>Brain tumour
                         </p>
-                        <p class="flex items-center text-gray-300 mb-2">
+                        <p class="flex items-center text-gray-700 mb-2">
                             <span
                                 class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
                                 <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
@@ -74,7 +80,7 @@
                                 </svg>
                             </span>SARS COV-2
                         </p>
-                        <p class="flex items-center text-gray-300 mb-2">
+                        <p class="flex items-center text-gray-700 mb-2">
                             <span
                                 class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
                                 <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
@@ -83,7 +89,7 @@
                                 </svg>
                             </span>Pneumonia
                         </p>
-                        <p class="flex items-center text-gray-300 mb-2">
+                        <p class="flex items-center text-gray-700 mb-2">
                             <span
                                 class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
                                 <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
@@ -92,7 +98,7 @@
                                 </svg>
                             </span>Blood cell classification
                         </p>
-                        <a href="hospital.html" class="cursor-pointer flex md:mt-32 items-center text-black bg-gray-200 border-0 py-2 px-4 w-full focus:outline-none hover:bg-white rounded">Try it Out
+                        <a href="hospital.html" class="cursor-pointer flex md:mt-32 items-center text-white bg-[#731edb] border-0 py-2 px-4 w-full focus:outline-none hover:bg-[#36205d] rounded">Try it Out
                             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
                                 stroke-width="2" class="w-4 h-4 ml-auto" viewBox="0 0 24 24">
                                 <path d="M5 12h14M12 5l7 7-7 7"></path>
@@ -101,10 +107,10 @@
                     </div>
                 </div>
                 <div class="p-4 xl:w-1/4 md:w-1/2 w-full hover:scale-105 duration-300">
-                    <div class="h-full p-6 rounded-lg border-2 border-gray-500 hover:border-white flex flex-col relative overflow-hidden">
-                        <h1 class="text-3xl text-gray-300 pb-4 mb-4 border-b border-gray-200 leading-none">Stress-Strain
+                    <div class="h-full p-6 rounded-lg border-2 border-gray-500 hover:border-[#731edb] flex flex-col relative overflow-hidden">
+                        <h1 class="text-3xl text-black pb-4 mb-4 border-b border-gray-700 leading-none">Stress-Strain
                         </h1>
-                        <p class="flex items-center text-gray-300 mb-2">
+                        <p class="flex items-center text-gray-700 mb-2">
                             <span
                                 class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
                                 <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
@@ -113,7 +119,7 @@
                                 </svg>
                             </span>Analysis of the provided data
                         </p>
-                        <p class="flex items-center text-gray-300 mb-2">
+                        <p class="flex items-center text-gray-700 mb-2">
                             <span
                                 class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
                                 <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
@@ -122,7 +128,7 @@
                                 </svg>
                             </span>Prediction using Machine Learning
                         </p>
-                        <p class="flex items-center text-gray-300 mb-2">
+                        <p class="flex items-center text-gray-700 mb-2">
                             <span
                                 class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
                                 <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
@@ -131,7 +137,7 @@
                                 </svg>
                             </span>Suggestion of best parametres
                         </p>
-                        <p class="flex items-center text-gray-300 mb-2">
+                        <p class="flex items-center text-gray-700 mb-2">
                             <span
                                 class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
                                 <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
@@ -140,7 +146,7 @@
                                 </svg>
                             </span>Graphical visualization
                         </p>
-                        <a href="https://tushar2930-stress-strain-streamlit-app-ldgr8r.streamlit.app/" target="_blank" class="cursor-pointer flex mt-auto items-center text-black bg-gray-200 border-0 py-2 px-4 w-full focus:outline-none hover:bg-white rounded">Try it Out
+                        <a href="https://tushar2930-stress-strain-streamlit-app-ldgr8r.streamlit.app/" target="_blank" class="cursor-pointer flex mt-auto items-center text-white bg-[#731edb] border-0 py-2 px-4 w-full focus:outline-none hover:bg-[#36205d] rounded">Try it Out
                             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
                                 stroke-width="2" class="w-4 h-4 ml-auto" viewBox="0 0 24 24">
                                 <path d="M5 12h14M12 5l7 7-7 7"></path>
@@ -149,10 +155,10 @@
                     </div>
                 </div>
                 <div class="p-4 xl:w-1/4 md:w-1/2 w-full hover:scale-105 duration-300">
-                    <div class="h-full p-6 rounded-lg border-2 border-gray-500 hover:border-white flex flex-col relative overflow-hidden">
-                        <h1 class="text-3xl text-gray-300 pb-4 mb-4 border-b border-gray-200 leading-none">Roads and
+                    <div class="h-full p-6 rounded-lg border-2 border-gray-500 hover:border-[#731edb] flex flex-col relative overflow-hidden">
+                        <h1 class="text-3xl text-black pb-4 mb-4 border-b border-gray-700 leading-none">Roads and
                             Traffic</h1>
-                        <p class="flex items-center text-gray-300 mb-2">
+                        <p class="flex items-center text-gray-700 mb-2">
                             <span
                                 class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
                                 <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
@@ -161,7 +167,7 @@
                                 </svg>
                             </span>Object detection
                         </p>
-                        <p class="flex items-center text-gray-300 mb-2">
+                        <p class="flex items-center text-gray-700 mb-2">
                             <span
                                 class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
                                 <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
@@ -170,7 +176,7 @@
                                 </svg>
                             </span>Road segmentation
                         </p>
-                        <p class="flex items-center text-gray-300 mb-2">
+                        <p class="flex items-center text-gray-700 mb-2">
                             <span
                                 class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
                                 <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
@@ -179,7 +185,7 @@
                                 </svg>
                             </span>Grouping of similar items
                         </p>
-                        <p class="flex items-center text-gray-300 mb-2">
+                        <p class="flex items-center text-gray-700 mb-2">
                             <span
                                 class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
                                 <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
@@ -188,7 +194,7 @@
                                 </svg>
                             </span>Helpful for autonomous vehicles
                         </p>
-                        <a href="" class="cursor-pointer flex items-center mt-auto text-black bg-gray-200 hover:bg-white border-0 py-2 px-4 w-full focus:outline-none rounded">Try it Out
+                        <a href="" class="cursor-pointer flex items-center mt-auto text-white bg-[#731edb] hover:bg-[#36205d] border-0 py-2 px-4 w-full focus:outline-none rounded">Try it Out
                             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
                                 stroke-width="2" class="w-4 h-4 ml-auto" viewBox="0 0 24 24">
                                 <path d="M5 12h14M12 5l7 7-7 7"></path>
@@ -201,31 +207,31 @@
         </div>
     </section>
 
-    <section id="members" class="text-gray-600 body-font bg-gradient-to-b from-gray-800 to-black">
+    <section id="members" class="text-gray-600 body-font bg-gradient-to-b from-white to-gray-200">
         <div class="container px-5 py-24 mx-auto">
             <div class="flex flex-col text-center w-full mb-20">
-                <h1 class="text-3xl font-medium title-font mb-4 text-white underline underline-offset-4 ">OUR TEAM</h1>
+                <h1 class="text-3xl font-medium title-font mb-4 text-black underline underline-offset-4 ">OUR TEAM</h1>
                 <p class="lg:w-2/3 mx-auto leading-relaxed text-base text-gray-500">Our team is made up of highly skilled and motivated individuals who have experience with machine learning, data analysis, and web development. We collaborated to develop and deploy predictive models for disease risk assessment, stress-strain analysis, and object detection on roads using a deep understanding of the latest technologies and methodologies. <br><br> We were able to create a user-friendly website that provided valuable insights and information to a wide range of users, including medical professionals, engineers, and transportation planners, thanks to our collaborative efforts. Our team's dedication to excellence and innovation were critical to the project's success, and we are proud of the results we achieved.
                 </p>
             </div>
             <div class="flex flex-col md:flex-row -m-4">
-                <div name="aryan" class="p-4 lg:w-1/4 md:w-1/2 hover:scale-105 duration-300 hover:border-2 hover:rounded-lg hover:border-gray-400">
+                <div name="aryan" class="p-4 lg:w-1/4 md:w-1/2 hover:scale-105 duration-300 hover:border-2 hover:rounded-lg hover:border-[#731edb]">
                     <div class="h-full flex flex-col items-center text-center">
                         <img alt="team" class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4"
                             src="https://static.vecteezy.com/system/resources/previews/004/865/921/original/programmer-people-concept-use-laptop-and-programming-code-program-icon-spreading-with-modern-flat-style-free-vector.jpg">
                         <div class="w-full">
-                            <h2 class="title-font font-medium text-xl text-white">Aryan Parihar</h2>
-                            <h3 class="text-gray-400 text-sm mb-3">Web Developer</h3>
+                            <h2 class="title-font font-medium text-xl text-black">Aryan Parihar</h2>
+                            <h3 class="text-gray-500 text-sm mb-3">Web Developer</h3>
                             <p class="mb-4 to-gray-500">Worked on the frontend and UI part of the web application.</p>
                             <span name="links" class="inline-flex">
-                                <a href="https://www.linkedin.com/in/aryan-parihar-436206252/" target="_blank" class="ml-2 cursor-pointer stroke-gray-200">
+                                <a href="https://www.linkedin.com/in/aryan-parihar-436206252/" target="_blank" class="ml-2 cursor-pointer stroke-[#731edb]">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="20px"
                                         height="20px">
                                         <path
                                             d="M 25 2 C 12.309295 2 2 12.309295 2 25 C 2 37.690705 12.309295 48 25 48 C 37.690705 48 48 37.690705 48 25 C 48 12.309295 37.690705 2 25 2 z M 25 4 C 36.609824 4 46 13.390176 46 25 C 46 36.609824 36.609824 46 25 46 C 13.390176 46 4 36.609824 4 25 C 4 13.390176 13.390176 4 25 4 z M 16 12 C 14.35499 12 13 13.35499 13 15 C 13 16.64501 14.35499 18 16 18 C 17.64501 18 19 16.64501 19 15 C 19 13.35499 17.64501 12 16 12 z M 16 14 C 16.564129 14 17 14.435871 17 15 C 17 15.564129 16.564129 16 16 16 C 15.435871 16 15 15.564129 15 15 C 15 14.435871 15.435871 14 16 14 z M 14 19 A 1.0001 1.0001 0 0 0 13 20 L 13 35 A 1.0001 1.0001 0 0 0 14 36 L 18 36 A 1.0001 1.0001 0 0 0 19 35 L 19 20 A 1.0001 1.0001 0 0 0 18 19 L 14 19 z M 22 19 A 1.0001 1.0001 0 0 0 21 20 L 21 35 A 1.0001 1.0001 0 0 0 22 36 L 26 36 A 1.0001 1.0001 0 0 0 27 35 L 27 27.5 C 27 26.120455 28.120455 25 29.5 25 C 30.879545 25 32 26.120455 32 27.5 L 32 30 L 32 35 A 1.0001 1.0001 0 0 0 33 36 L 37 36 A 1.0001 1.0001 0 0 0 38 35 L 38 26.5 C 38 22.36961 34.63039 19 30.5 19 C 29.213528 19 28.059744 19.41615 27 19.990234 A 1.0001 1.0001 0 0 0 26 19 L 22 19 z M 15 21 L 17 21 L 17 34 L 15 34 L 15 21 z M 23 21 L 25 21 L 25 21.816406 A 1.0001 1.0001 0 0 0 26.693359 22.537109 C 27.684186 21.585305 29.016683 21 30.5 21 C 33.54961 21 36 23.45039 36 26.5 L 36 34 L 34 34 L 34 30 L 34 27.5 C 34 25.029545 31.970455 23 29.5 23 C 27.029545 23 25 25.029545 25 27.5 L 25 34 L 23 34 L 23 21 z" />
                                     </svg>
                                 </a>
-                                <a href="https://github.com/aryanparihar2910" target="_blank" class="ml-2 cursor-pointer stroke-gray-200">
+                                <a href="https://github.com/aryanparihar2910" target="_blank" class="ml-2 cursor-pointer stroke-[#731edb]">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="20px"
                                         height="20px">
                                         <path
@@ -236,23 +242,23 @@
                         </div>
                     </div>
                 </div>
-                <div name="ashutosh" class="p-4 lg:w-1/4 md:w-1/2 hover:scale-105 duration-300 hover:border-2 hover:rounded-lg hover:border-gray-400">
+                <div name="ashutosh" class="p-4 lg:w-1/4 md:w-1/2 hover:scale-105 duration-300 hover:border-2 hover:rounded-lg hover:border-[#731edb]">
                     <div class="h-full flex flex-col items-center text-center">
                         <img alt="team" class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4"
                             src="https://img.freepik.com/free-vector/open-automation-architecture-abstract-concept-illustration_335657-3802.jpg">
                         <div class="w-full">
-                            <h2 class="title-font font-medium text-xl text-white">Ashutosh Thakur</h2>
-                            <h3 class="text-gray-400 text-sm mb-3">ML Engineer</h3>
+                            <h2 class="title-font font-medium text-xl text-black">Ashutosh Thakur</h2>
+                            <h3 class="text-gray-500 text-sm mb-3">ML Engineer</h3>
                             <p class="mb-4 text-gray-500">Designed and perfected the various Machine Learning models</p>
                             <span name="links" class="inline-flex">
-                                <a href="https://www.linkedin.com/in/ashutosh-thakur-831811231/" target="_blank" class="ml-2 cursor-pointer stroke-gray-200">
+                                <a href="https://www.linkedin.com/in/ashutosh-thakur-831811231/" target="_blank" class="ml-2 cursor-pointer stroke-[#731edb]">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="20px"
                                         height="20px">
                                         <path
                                             d="M 25 2 C 12.309295 2 2 12.309295 2 25 C 2 37.690705 12.309295 48 25 48 C 37.690705 48 48 37.690705 48 25 C 48 12.309295 37.690705 2 25 2 z M 25 4 C 36.609824 4 46 13.390176 46 25 C 46 36.609824 36.609824 46 25 46 C 13.390176 46 4 36.609824 4 25 C 4 13.390176 13.390176 4 25 4 z M 16 12 C 14.35499 12 13 13.35499 13 15 C 13 16.64501 14.35499 18 16 18 C 17.64501 18 19 16.64501 19 15 C 19 13.35499 17.64501 12 16 12 z M 16 14 C 16.564129 14 17 14.435871 17 15 C 17 15.564129 16.564129 16 16 16 C 15.435871 16 15 15.564129 15 15 C 15 14.435871 15.435871 14 16 14 z M 14 19 A 1.0001 1.0001 0 0 0 13 20 L 13 35 A 1.0001 1.0001 0 0 0 14 36 L 18 36 A 1.0001 1.0001 0 0 0 19 35 L 19 20 A 1.0001 1.0001 0 0 0 18 19 L 14 19 z M 22 19 A 1.0001 1.0001 0 0 0 21 20 L 21 35 A 1.0001 1.0001 0 0 0 22 36 L 26 36 A 1.0001 1.0001 0 0 0 27 35 L 27 27.5 C 27 26.120455 28.120455 25 29.5 25 C 30.879545 25 32 26.120455 32 27.5 L 32 30 L 32 35 A 1.0001 1.0001 0 0 0 33 36 L 37 36 A 1.0001 1.0001 0 0 0 38 35 L 38 26.5 C 38 22.36961 34.63039 19 30.5 19 C 29.213528 19 28.059744 19.41615 27 19.990234 A 1.0001 1.0001 0 0 0 26 19 L 22 19 z M 15 21 L 17 21 L 17 34 L 15 34 L 15 21 z M 23 21 L 25 21 L 25 21.816406 A 1.0001 1.0001 0 0 0 26.693359 22.537109 C 27.684186 21.585305 29.016683 21 30.5 21 C 33.54961 21 36 23.45039 36 26.5 L 36 34 L 34 34 L 34 30 L 34 27.5 C 34 25.029545 31.970455 23 29.5 23 C 27.029545 23 25 25.029545 25 27.5 L 25 34 L 23 34 L 23 21 z" />
                                     </svg>
                                 </a>
-                                <a href="https://github.com/ashutoshthakur454" target="_blank" class="ml-2 cursor-pointer stroke-gray-200">
+                                <a href="https://github.com/ashutoshthakur454" target="_blank" class="ml-2 cursor-pointer stroke-[#731edb]">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="20px"
                                         height="20px">
                                         <path
@@ -263,24 +269,24 @@
                         </div>
                     </div>
                 </div>
-                <div name="kushagr" class="p-4 lg:w-1/4 md:w-1/2 hover:scale-105 duration-300 hover:border-2 hover:rounded-lg hover:border-gray-400">
+                <div name="kushagr" class="p-4 lg:w-1/4 md:w-1/2 hover:scale-105 duration-300 hover:border-2 hover:rounded-lg hover:border-[#731edb]">
                     <div class="h-full flex flex-col items-center text-center">
                         <img alt="team" class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4"
                             src="https://thumbs.dreamstime.com/b/programmer-sitting-table-working-coding-chatting-laptop-online-backend-frontend-developer-man-home-office-guy-202147846.jpg">
                         <div class="w-full">
-                            <h2 class="title-font font-medium text-xl text-white">Kushagr Kapoor</h2>
-                            <h3 class="text-gray-400 text-sm mb-3">Backend Developer</h3>
+                            <h2 class="title-font font-medium text-xl text-black">Kushagr Kapoor</h2>
+                            <h3 class="text-gray-500 text-sm mb-3">Backend Developer</h3>
                             <p class="mb-4 text-gray-500">Integrated the frontend with the backend and contributed towards academic
                                 side of things</p>
                             <span name="links" class="inline-flex">
-                                <a href="https://www.linkedin.com/in/kushagr-kapoor-166391228/" target="_blank" class="ml-2 cursor-pointer stroke-gray-200">
+                                <a href="https://www.linkedin.com/in/kushagr-kapoor-166391228/" target="_blank" class="ml-2 cursor-pointer stroke-[#731edb]">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="20px"
                                         height="20px">
                                         <path
                                             d="M 25 2 C 12.309295 2 2 12.309295 2 25 C 2 37.690705 12.309295 48 25 48 C 37.690705 48 48 37.690705 48 25 C 48 12.309295 37.690705 2 25 2 z M 25 4 C 36.609824 4 46 13.390176 46 25 C 46 36.609824 36.609824 46 25 46 C 13.390176 46 4 36.609824 4 25 C 4 13.390176 13.390176 4 25 4 z M 16 12 C 14.35499 12 13 13.35499 13 15 C 13 16.64501 14.35499 18 16 18 C 17.64501 18 19 16.64501 19 15 C 19 13.35499 17.64501 12 16 12 z M 16 14 C 16.564129 14 17 14.435871 17 15 C 17 15.564129 16.564129 16 16 16 C 15.435871 16 15 15.564129 15 15 C 15 14.435871 15.435871 14 16 14 z M 14 19 A 1.0001 1.0001 0 0 0 13 20 L 13 35 A 1.0001 1.0001 0 0 0 14 36 L 18 36 A 1.0001 1.0001 0 0 0 19 35 L 19 20 A 1.0001 1.0001 0 0 0 18 19 L 14 19 z M 22 19 A 1.0001 1.0001 0 0 0 21 20 L 21 35 A 1.0001 1.0001 0 0 0 22 36 L 26 36 A 1.0001 1.0001 0 0 0 27 35 L 27 27.5 C 27 26.120455 28.120455 25 29.5 25 C 30.879545 25 32 26.120455 32 27.5 L 32 30 L 32 35 A 1.0001 1.0001 0 0 0 33 36 L 37 36 A 1.0001 1.0001 0 0 0 38 35 L 38 26.5 C 38 22.36961 34.63039 19 30.5 19 C 29.213528 19 28.059744 19.41615 27 19.990234 A 1.0001 1.0001 0 0 0 26 19 L 22 19 z M 15 21 L 17 21 L 17 34 L 15 34 L 15 21 z M 23 21 L 25 21 L 25 21.816406 A 1.0001 1.0001 0 0 0 26.693359 22.537109 C 27.684186 21.585305 29.016683 21 30.5 21 C 33.54961 21 36 23.45039 36 26.5 L 36 34 L 34 34 L 34 30 L 34 27.5 C 34 25.029545 31.970455 23 29.5 23 C 27.029545 23 25 25.029545 25 27.5 L 25 34 L 23 34 L 23 21 z" />
                                     </svg>
                                 </a>
-                                <a class="ml-2 cursor-pointer stroke-gray-200">
+                                <a class="ml-2 cursor-pointer stroke-[#731edb]">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="20px"
                                         height="20px">
                                         <path
@@ -291,23 +297,23 @@
                         </div>
                     </div>
                 </div>
-                <div name="tushar" class="p-4 lg:w-1/4 md:w-1/2 hover:scale-105 duration-300 hover:border-2 hover:rounded-lg hover:border-gray-400">
+                <div name="tushar" class="p-4 lg:w-1/4 md:w-1/2 hover:scale-105 duration-300 hover:border-2 hover:rounded-lg hover:border-[#731edb]">
                     <div class="h-full flex flex-col items-center text-center">
                         <img alt="team" class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4"
                             src="https://static.vecteezy.com/system/resources/thumbnails/016/915/122/small_2x/man-programmer-is-working-on-his-laptop-coding-and-programming-vector.jpg">
                         <div class="w-full">
-                            <h2 class="title-font font-medium text-xl text-white">Tushar Shingane</h2>
-                            <h3 class="text-gray-400 text-sm mb-3">Flask Enginner</h3>
+                            <h2 class="title-font font-medium text-xl text-black">Tushar Shingane</h2>
+                            <h3 class="text-gray-500 text-sm mb-3">Flask Enginner</h3>
                             <p class="mb-4 text-gray-500">Established the link between website and the Machine Learning models.</p>
                             <span name="links" class="inline-flex">
-                                <a href="https://www.linkedin.com/in/tushar-shingane/" target="_blank" class="ml-2 cursor-pointer stroke-gray-200">
+                                <a href="https://www.linkedin.com/in/tushar-shingane/" target="_blank" class="ml-2 cursor-pointer stroke-[#731edb]">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="20px"
                                         height="20px">
                                         <path
                                             d="M 25 2 C 12.309295 2 2 12.309295 2 25 C 2 37.690705 12.309295 48 25 48 C 37.690705 48 48 37.690705 48 25 C 48 12.309295 37.690705 2 25 2 z M 25 4 C 36.609824 4 46 13.390176 46 25 C 46 36.609824 36.609824 46 25 46 C 13.390176 46 4 36.609824 4 25 C 4 13.390176 13.390176 4 25 4 z M 16 12 C 14.35499 12 13 13.35499 13 15 C 13 16.64501 14.35499 18 16 18 C 17.64501 18 19 16.64501 19 15 C 19 13.35499 17.64501 12 16 12 z M 16 14 C 16.564129 14 17 14.435871 17 15 C 17 15.564129 16.564129 16 16 16 C 15.435871 16 15 15.564129 15 15 C 15 14.435871 15.435871 14 16 14 z M 14 19 A 1.0001 1.0001 0 0 0 13 20 L 13 35 A 1.0001 1.0001 0 0 0 14 36 L 18 36 A 1.0001 1.0001 0 0 0 19 35 L 19 20 A 1.0001 1.0001 0 0 0 18 19 L 14 19 z M 22 19 A 1.0001 1.0001 0 0 0 21 20 L 21 35 A 1.0001 1.0001 0 0 0 22 36 L 26 36 A 1.0001 1.0001 0 0 0 27 35 L 27 27.5 C 27 26.120455 28.120455 25 29.5 25 C 30.879545 25 32 26.120455 32 27.5 L 32 30 L 32 35 A 1.0001 1.0001 0 0 0 33 36 L 37 36 A 1.0001 1.0001 0 0 0 38 35 L 38 26.5 C 38 22.36961 34.63039 19 30.5 19 C 29.213528 19 28.059744 19.41615 27 19.990234 A 1.0001 1.0001 0 0 0 26 19 L 22 19 z M 15 21 L 17 21 L 17 34 L 15 34 L 15 21 z M 23 21 L 25 21 L 25 21.816406 A 1.0001 1.0001 0 0 0 26.693359 22.537109 C 27.684186 21.585305 29.016683 21 30.5 21 C 33.54961 21 36 23.45039 36 26.5 L 36 34 L 34 34 L 34 30 L 34 27.5 C 34 25.029545 31.970455 23 29.5 23 C 27.029545 23 25 25.029545 25 27.5 L 25 34 L 23 34 L 23 21 z" />
                                     </svg>
                                 </a>
-                                <a href="https://github.com/Tushar2930" target="_blank" class="ml-2 cursor-pointer stroke-gray-200">
+                                <a href="https://github.com/Tushar2930" target="_blank" class="ml-2 cursor-pointer stroke-[#731edb]">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="20px"
                                         height="20px">
                                         <path
@@ -318,23 +324,23 @@
                         </div>
                     </div>
                 </div>
-                <div name="shivam" class="p-4 lg:w-1/4 md:w-1/2 hover:scale-105 duration-300 hover:border-2 hover:rounded-lg hover:border-gray-400">
+                <div name="shivam" class="p-4 lg:w-1/4 md:w-1/2 hover:scale-105 duration-300 hover:border-2 hover:rounded-lg hover:border-[#731edb]">
                     <div class="h-full flex flex-col items-center text-center">
                         <img alt="team" class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4"
                             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcST6r6t_jveCSCBbhGTNZr3YJmbWpsh8CntVw&usqp=CAU">
                         <div class="w-full">
-                            <h2 class="title-font font-medium text-xl text-white">Shivam Kumar</h2>
-                            <h3 class="text-gray-400 text-sm mb-3">ML engineer</h3>
+                            <h2 class="title-font font-medium text-xl text-black">Shivam Kumar</h2>
+                            <h3 class="text-gray-500 text-sm mb-3">ML engineer</h3>
                             <p class="mb-4 text-gray-500">Worked on improving the ML models and selection of apt parametres.</p>
                             <span name="links" class="inline-flex">
-                                <a href="https://www.linkedin.com/in/shivam-kumar-98aa12244/" target="_blank" class="ml-2 cursor-pointer stroke-gray-200">
+                                <a href="https://www.linkedin.com/in/shivam-kumar-98aa12244/" target="_blank" class="ml-2 cursor-pointer stroke-[#731edb]">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="20px"
                                         height="20px">
                                         <path
                                             d="M 25 2 C 12.309295 2 2 12.309295 2 25 C 2 37.690705 12.309295 48 25 48 C 37.690705 48 48 37.690705 48 25 C 48 12.309295 37.690705 2 25 2 z M 25 4 C 36.609824 4 46 13.390176 46 25 C 46 36.609824 36.609824 46 25 46 C 13.390176 46 4 36.609824 4 25 C 4 13.390176 13.390176 4 25 4 z M 16 12 C 14.35499 12 13 13.35499 13 15 C 13 16.64501 14.35499 18 16 18 C 17.64501 18 19 16.64501 19 15 C 19 13.35499 17.64501 12 16 12 z M 16 14 C 16.564129 14 17 14.435871 17 15 C 17 15.564129 16.564129 16 16 16 C 15.435871 16 15 15.564129 15 15 C 15 14.435871 15.435871 14 16 14 z M 14 19 A 1.0001 1.0001 0 0 0 13 20 L 13 35 A 1.0001 1.0001 0 0 0 14 36 L 18 36 A 1.0001 1.0001 0 0 0 19 35 L 19 20 A 1.0001 1.0001 0 0 0 18 19 L 14 19 z M 22 19 A 1.0001 1.0001 0 0 0 21 20 L 21 35 A 1.0001 1.0001 0 0 0 22 36 L 26 36 A 1.0001 1.0001 0 0 0 27 35 L 27 27.5 C 27 26.120455 28.120455 25 29.5 25 C 30.879545 25 32 26.120455 32 27.5 L 32 30 L 32 35 A 1.0001 1.0001 0 0 0 33 36 L 37 36 A 1.0001 1.0001 0 0 0 38 35 L 38 26.5 C 38 22.36961 34.63039 19 30.5 19 C 29.213528 19 28.059744 19.41615 27 19.990234 A 1.0001 1.0001 0 0 0 26 19 L 22 19 z M 15 21 L 17 21 L 17 34 L 15 34 L 15 21 z M 23 21 L 25 21 L 25 21.816406 A 1.0001 1.0001 0 0 0 26.693359 22.537109 C 27.684186 21.585305 29.016683 21 30.5 21 C 33.54961 21 36 23.45039 36 26.5 L 36 34 L 34 34 L 34 30 L 34 27.5 C 34 25.029545 31.970455 23 29.5 23 C 27.029545 23 25 25.029545 25 27.5 L 25 34 L 23 34 L 23 21 z" />
                                     </svg>
                                 </a>
-                                <a class="ml-2 cursor-pointer stroke-gray-200">
+                                <a class="ml-2 cursor-pointer stroke-[#731edb]">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="20px"
                                         height="20px">
                                         <path
@@ -349,7 +355,7 @@
         </div>
     </section>
     
-    <section id="footer" class="text-gray-600 body-font bg-slate-300">
+    <section id="footer" class="text-gray-600 body-font bg-[#f3f1f7]">
         <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
           <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
             <img class="w-12" src="assets/iit.png" alt="" srcset="">
@@ -368,6 +374,7 @@
           </span>
         </div>
     </section>
+    <script src="main.js"></script>
 </body>
 
 </html>
