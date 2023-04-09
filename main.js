@@ -1,4 +1,4 @@
-var nav = document.querySelector('nabbar');
+var nav = document.querySelector('nav');
  // Identify target
 
 window.addEventListener('scroll', function(event) { // To listen for event
