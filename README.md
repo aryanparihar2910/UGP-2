@@ -32,6 +32,9 @@ We used the yolo v3 architecture to identify objects in an image and provide the
 Alongwith we did road segmentation on a given video for the autonomous vehicles to know where they can drive. We used Fully Convolutional Networks for this task
 ## Authors
 
+<img width="1437" alt="Screenshot 2023-04-13 at 2 40 54 AM" src="https://user-images.githubusercontent.com/116455750/231586024-671f5451-9452-4df2-807a-c41b7e02deed.png">
+
+
 - [@Aryan Parihar](https://github.com/aryanparihar2910)
 - [@Ashutosh Thakur](https://github.com/ashutoshthakur454)
 - [@Kushagr Kapoor](https://github.com/Kush-316)
