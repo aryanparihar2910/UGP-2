@@ -4,6 +4,9 @@
 This was our project in 2nd year of college in which we integrated web development with the principles of machine learning.
 Our project consisted of 3 parts :
 
+<img width="1437" alt="Screenshot 2023-04-13 at 2 13 04 AM" src="https://user-images.githubusercontent.com/116455750/231585077-16ab23ec-cb4d-423a-a3da-8b5d7067aeef.png">
+
+
 ## e-Asptal
 
 We created and deployed machine learning models for the following diseases or infections - 
