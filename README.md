@@ -10,15 +10,19 @@ Our project consisted of 3 parts :
 
 ## e-Asptal
 
+<img width="1437" alt="Screenshot 2023-04-13 at 2 13 38 AM" src="https://user-images.githubusercontent.com/116455750/231585313-63235dd0-dab6-4212-baf7-347dd3ec074f.png">
+
 We created and deployed machine learning models for the following diseases or infections - 
 
 1 . Detection of Covid-19 with the help of chest CT scans.
+<img width="1437" alt="Screenshot 2023-04-13 at 7 07 48 PM" src="https://user-images.githubusercontent.com/116455750/231776510-8dc3b6c3-5c57-4b77-ad09-5d11ab486941.png">
+
 
 2 . Predection of brain tumour with the use of brain CT scans.
 
 3 . Detection of pneumonia with the help of chest X-ray images.
 
-<img width="1437" alt="Screenshot 2023-04-13 at 2 13 38 AM" src="https://user-images.githubusercontent.com/116455750/231585313-63235dd0-dab6-4212-baf7-347dd3ec074f.png">
+
 
 ## Stress - Strain
 
