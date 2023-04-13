@@ -1,14 +1,14 @@
 var nav = document.querySelector('nav');
- // Identify target
+ 
 
-window.addEventListener('scroll', function(event) { // To listen for event
+window.addEventListener('scroll', function(event) { 
     event.preventDefault();
 
-    if (window.scrollY <= 800) { // Just an example
+    if (window.scrollY <= 800) { 
         nabbar.style.backgroundColor = 'transparent';
         nabbar.style.color='white';
         
-        // or default color
+        
     } else {
         nabbar.style.backgroundColor = '#fdfcfc';
         nabbar.style.color='black';
