@@ -15,13 +15,27 @@ Our project consisted of 3 parts :
 We created and deployed machine learning models for the following diseases or infections - 
 
 1 . Detection of Covid-19 with the help of chest CT scans.
+
 <img width="1437" alt="Screenshot 2023-04-13 at 7 07 48 PM" src="https://user-images.githubusercontent.com/116455750/231776510-8dc3b6c3-5c57-4b77-ad09-5d11ab486941.png">
 
+<img width="1437" alt="Screenshot 2023-04-15 at 3 03 55 PM" src="https://user-images.githubusercontent.com/116455750/232205863-6ce4382f-3f7e-4ff9-88d6-fb1ce1a22c59.png">
 
-2 . Predection of brain tumour with the use of brain CT scans.
+<img width="1437" alt="Screenshot 2023-04-15 at 3 03 20 PM" src="https://user-images.githubusercontent.com/116455750/232205867-cd07a2d7-aa96-495a-ab95-bb7678c1c80a.png">
+
+
+
+2 . Predection of brain tumour with the use of brain CT scans. 
+
+<img width="1437" alt="Screenshot 2023-04-15 at 3 04 19 PM" src="https://user-images.githubusercontent.com/116455750/232206224-44fa7fe5-2568-47a8-9e42-6e36e588b187.png">
+
+
 
 3 . Detection of pneumonia with the help of chest X-ray images.
 
+<img width="1437" alt="Screenshot 2023-04-15 at 3 05 21 PM" src="https://user-images.githubusercontent.com/116455750/232206355-5d22b24b-ad56-4dfa-b996-761e1ec60aff.png">
+
+
+<img width="1437" alt="Screenshot 2023-04-15 at 3 05 37 PM" src="https://user-images.githubusercontent.com/116455750/232206348-36d1916c-a4ef-42f4-ac04-82954f2fcd72.png">
 
 
 ## Stress - Strain
