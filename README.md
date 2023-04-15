@@ -29,6 +29,10 @@ We created and deployed machine learning models for the following diseases or in
 <img width="1437" alt="Screenshot 2023-04-15 at 3 04 19 PM" src="https://user-images.githubusercontent.com/116455750/232206224-44fa7fe5-2568-47a8-9e42-6e36e588b187.png">
 
 
+https://user-images.githubusercontent.com/116455750/232206564-896d2006-8bd6-47c1-bc28-44b70f46d72e.mp4
+
+
+
 
 3 . Detection of pneumonia with the help of chest X-ray images.
 
