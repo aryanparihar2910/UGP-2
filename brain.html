@@ -1,51 +1,305 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Brain Tumour Detection</title>
-    <link rel="stylesheet" href="brain.css">
-	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
-	<link rel="icon" type="image/x-icon" href="assets/brain.png">
-  </head>
-  <body>
-	<header>
-		<nav class="container">
-            <img src="assets/cent.png" width="100 px" height="auto">
-			<ul>
-				<li><a href="#">Home</a></li> <!--Main Explo Site Link-->
-				<li><a href="#">About</a></li> <!--Main Explo Site About Section Link-->
-			</ul>
-		</nav>
-	</header>
-	<section id="section">
-		<div class="container">
-			<div class="container">
-			<h2>Welcome to Brain Tumour Detection Model</h2>
-		</div>
-			<div class="container">
-			<p>We have created a model that detects whether a patient has a brain tumour by analyzing the MRI scan of the patient uploaded by the user. The model is an application of deep learning and uses CNN for detection. Our goal is to minimize the time required for administrative work and data analysis by healthcare experts.</p>
-			<a href="https://tushar2930-brain-tumor-app-0ziz0l.streamlit.app/" class="button">Go To Website</a><!--Model Site Link-->
-		    </div>
-		</div>
-	</section>
-	<section id="about">
-		<div class="container">
-		  <div class="container">
-		  <h2>About</h2>
-		  </div>
-		  <div>
-		  <p>Here's some in-depth information about my website. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fringilla risus non enim tincidunt, vel suscipit orci tempor. Donec ut ex aliquam, imperdiet est ut, rhoncus eros. Sed ut diam eu diam feugiat commodo. Nunc ultricies sem sit amet nisi pulvinar, sit amet elementum velit ornare.</p>
-		  <p>Donec commodo velit ac turpis molestie vehicula. Fusce tempor metus eu augue tempor, quis ultricies orci egestas. Nulla vulputate dolor ac ante fermentum, a tempus est elementum. Sed porttitor, risus quis tempor placerat, nunc libero tristique arcu, sed auctor mauris enim non mauris. Curabitur non dictum tellus. Phasellus ac commodo nisl. Nulla tincidunt lacinia libero. Aliquam pretium ullamcorper ultricies. Morbi vel elit ac lacus viverra luctus at vel quam.</p>
-		  </div>
-		</div>
-		<div class="container">
-		<a href="" class="button">Documentation</a> <!--GitHub Link-->
-	    </div>
-		</section>
-	  </section>
-	<footer>
-		<div class="container">
-			<p>&copy; 2023 Exploratory Project. All rights reserved.</p>
-		</div>
-	</footer>
+<html class="scroll-smooth" lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/x-icon" href="assets/brain.png">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Brain Tumour</title>
+</head>
+
+<body>
+  <section id="navbar"
+    class="z-[100] fixed text-gray-600 body-font  bg-gradient-to-r from-white to-blue-100 w-full mx-auto">
+    <div class="container mx-auto flex flex-wrap p-5 xl:px-10 xl:py-6 flex-col md:flex-row items-center">
+      <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+        <img class="w-12" src="assets/brain.png" alt="" srcset="">
+        <span
+          class="ml-3 text-2xl text-bold bg-gradient-to-r from-indigo-500 to-blue-400 inline-block text-transparent bg-clip-text">Brain
+          Tumour</span>
+      </a>
+      <nav class="md:ml-auto flex text-black flex-wrap items-center text-base justify-center space-x-8">
+        <a href="hospital.html" class="cursor-pointer hover:scale-105 hover:underline hover:font-bold duration-300">Home</a>
+        <a href="#model" class="cursor-pointer hover:scale-105 hover:underline hover:font-bold duration-300">Model</a>
+        <a href="#about"
+          class="cursor-pointer hover:scale-105 hover:underline hover:font-bold duration-300">Timeline</a>
+        <a href="#precautions"
+          class="cursor-pointer hover:scale-105 hover:underline hover:font-bold duration-300">Precautions</a>
+
+      </nav>
+
+    </div>
+  </section>
+
+  <section id="api" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('assets/national-cancer-institute-Jg89tuvB1iQ-unsplash.jpg');
+  background-size:cover;
+  background-position: center center;
+  padding: 100px 0;
+  position: relative;
+  z-index: -1; ">
+    <div class="px-5 py-24 items-center mx-auto">
+      <h2 style="font-size: 72px;
+	  font-weight: bold;
+	  margin-bottom: 60px;
+	  color: #fff;
+	  text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+	  text-align: center;">Welcome to Brain Tumour Detection Model.</h2>
+      <div class="flex flex-wrap justify-center items-center">
+        <div class="flex items-center space-x-5">
+          <a href="https://tushar2930-pneumonia-app-8ai3tq.streamlit.app/" target="_blank" id="model link"
+           style="display: inline-block;
+		   background-color: #007aff;
+		   color: #fff;
+		   font-size: 18px;
+		   font-weight: bold;
+		   padding: 15px 30px;
+		   border-radius: 30px;
+		   text-transform: uppercase;
+		   transition: background-color 0.2s ease-in-out;
+		   text-shadow: 2px 2px 5px rgba(0,0,0,0.5);"> Try Now
+		  </a> 
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="model" class="body-font w-full bg-gray-100 ">
+    <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+
+      <div
+        class="lg:flex-grow pt-12 md:w-1/2 lg:px-4 md:px-16 flex flex-col md:items-start md:text-left items-center text-center">
+        <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-black underline underline-offset-4">
+          How the Model Works?
+        </h1>
+        <p class="text-gray-500">We have created a model that detects whether a patient is infected with CoVID-19 by
+          analyzing the CT scan of the patient uploaded by the user. The model is an application of deep learning and
+          uses CNN for detection. Our goal is to minimize the time required for administrative work and data analysis by
+          healthcare experts.</p>
+        <div class="btn space-x-4 mt-6">
+          <a href=""
+            class="cursor-pointer px-6 py-2 bg-black text-white font-bold rounded-lg hover:bg-gray-800 transition duration-300 ease-in-out mb-4 md:mb-0">Theory</a>
+          <a href=""
+            class="cursor-pointer px-6 py-2 bg-black text-white font-bold rounded-lg hover:bg-gray-800 transition duration-300 ease-in-out mb-4 md:mb-0">Github</a>
+        </div>
+      </div>
+      <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+        <img class="object-cover object-center mt-16 rounded" alt="hero"
+          src="https://www.analyticsinsight.net/wp-content/uploads/2020/03/AI_Animated.gif">
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="text-gray-600 body-font">
+
+    <div class="container px-5 py-24 mx-auto flex flex-wrap">
+      <div class="flex flex-col text-center w-full mb-20">
+        <h1 class="sm:text-4xl text-3xl font-medium title-font mb-4 text-gray-900 underline underline-offset-4">Timeline
+        </h1>
+      </div>
+
+      <div class="cards flex relative pt-10 pb-20 sm:items-center md:w-2/3 mx-auto">
+
+        <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
+          <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+        </div>
+        <div
+          class="flex-shrink-0 w-16 h-16 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-blue-400 text-white relative z-10 title-font font-medium text-sm">
+          1879</div>
+        <div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
+          <div
+            class="flex-shrink-0 w-24 h-24 bg-indigo-100 text-indigo-500 rounded-full inline-flex items-center justify-center">
+            <img src="assets/surgery.png" />
+          </div>
+          <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
+            <h2 class="font-medium title-font text-gray-900 mb-1 text-xl">First successful brain tumor removal surgery
+            </h2>
+            <p class="leading-relaxed">Scottish surgeon William Macewen performs the first successful brain tumor
+              removal in a young woman.</p>
+          </div>
+        </div>
+      </div>
+      <div class="cards flex relative pb-20 sm:items-center md:w-2/3 mx-auto">
+        <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
+          <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+        </div>
+        <div
+          class="flex-shrink-0 w-16 h-16 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-blue-400 text-white relative z-10 title-font font-medium text-sm">
+          1970s</div>
+        <div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
+          <div
+            class="flex-shrink-0 w-24 h-24 bg-indigo-100 text-indigo-500 rounded-full inline-flex items-center justify-center">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              class="w-12 h-12" viewBox="0 0 24 24">
+              <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+            </svg>
+          </div>
+          <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
+            <h2 class="font-medium title-font text-gray-900 mb-1 text-xl">CT scans and MRI arrive</h2>
+            <p class="leading-relaxed">British company EMI develops CT scanner that provides pictures of patients brains
+              to be seen for the first time.Researchers at EMI Laboratories obtain the first Magnetic resonance imaging
+              (MR) of a human brain.</p>
+          </div>
+        </div>
+      </div>
+      <div class="cards flex relative pb-20 sm:items-center md:w-2/3 mx-auto">
+        <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
+          <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+        </div>
+        <div
+          class="flex-shrink-0 w-16 h-16 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-blue-400 text-white relative z-10 title-font font-medium text-sm">
+          1990s</div>
+        <div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
+          <div
+            class="flex-shrink-0 w-24 h-24 bg-indigo-100 text-indigo-500 rounded-full inline-flex items-center justify-center">
+            <img src="assets/medical-research.png" />
+          </div>
+          <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
+            <h2 class="font-medium title-font text-gray-900 mb-1 text-xl">Advancement and Standardisation</h2>
+            <p class="leading-relaxed">Advances in chemotherapy and radiation increases survival for patients. World
+              Health Organization develops universal system for classifying brain tumors with aims at improving
+              communication and translate research findings</p>
+          </div>
+        </div>
+      </div>
+      <div class="cards flex relative pb-10 sm:items-center md:w-2/3 mx-auto">
+        <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
+          <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+        </div>
+        <div
+          class="flex-shrink-0 w-16 h-16 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-blue-400 text-white relative z-10 title-font font-medium text-sm">
+          2010s</div>
+        <div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
+          <div
+            class="flex-shrink-0 w-24 h-24 bg-indigo-100 text-indigo-500 rounded-full inline-flex items-center justify-center">
+            <img src="assets/4.svg" />
+          </div>
+          <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
+            <h2 class="font-medium title-font text-gray-900 mb-1 text-xl">New techniques come to existence</h2>
+            <p class="leading-relaxed">Today, cancer immunotherapy is being actively studied. Primary brain tumors occur
+              in around 250,000 people a year globally, making up less than 2% of cancers. Figures for incidence on
+              brain cancer show predominance in more developed countries.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="precautions" class="text-gray-600 body-font bg-gray-100">
+    <div class="container px-5 py-24 mx-auto">
+      <div class="flex flex-col text-center w-full mb-20">
+        <h1 class="sm:text-4xl text-3xl font-medium title-font mb-4 text-gray-900 underline underline-offset-4">
+          Precautions</h1>
+      </div>
+      <div class="flex flex-wrap -m-4">
+        <div class="lg:w-1/3 sm:w-1/2 p-4">
+          <div class="flex relative">
+            <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center"
+              src="https://i.pinimg.com/originals/5a/3f/17/5a3f179831bf5587f8454e25549ea6a5.gif">
+            <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+              <h1 class="title-font text-lg font-medium text-indigo-400 mb-3">
+                Get proper sleep
+              </h1>
+              <p class="leading-relaxed">Getting a good night’s sleep is incredibly important for your health. In fact, it’s just as important as eating a balanced, nutritious diet and exercising. </p>
+            </div>
+          </div>
+        </div>
+        <div class="lg:w-1/3 sm:w-1/2 p-4">
+          <div class="flex relative">
+            <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center"
+              src="https://media.tenor.com/1jSUXrwGQD4AAAAi/no-smoking-no-smoking-sign.gif">
+            <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+              <h1 class="title-font text-lg font-medium text-indigo-400 mb-3">Quit smoking</h1>
+              <p class="leading-relaxed">When you quit smoking, your immune system is no longer exposed to tar and nicotine. It will become stronger, and you will be less likely to get sick.</p>
+            </div>
+          </div>
+        </div>
+        <div class="lg:w-1/3 sm:w-1/2 p-4">
+          <div class="flex relative">
+            <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center"
+              src="https://cdn.dribbble.com/users/1120747/screenshots/4891890/comp_1_5.gif">
+            <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+              <h1 class="title-font text-lg font-medium text-indigo-400 mb-3">Avioid exposure to radiation</h1>
+              <p class="leading-relaxed">Radiation can damage the DNA in our cells. High doses of radiation can cause Acute Radiation Syndrome (ARS) or Cutaneous Radiation Injuries (CRI).
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="lg:w-1/3 sm:w-1/2 p-4">
+          <div class="flex relative">
+            <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center"
+              src="https://cdn.dribbble.com/users/3192459/screenshots/7021156/character2.gif">
+            <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+              <h1 class="title-font text-lg font-medium text-indigo-400 mb-3">Exercise regularly</h1>
+              <p class="leading-relaxed"> Exercise stimulates your body to release proteins and other chemicals that improve the structure and function of your brain. It also keeps your body fit and healthy.</p>
+            </div>
+          </div>
+        </div>
+        <div class="lg:w-1/3 sm:w-1/2 p-4">
+          <div class="flex relative">
+            <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center"
+              src="https://media2.giphy.com/media/4k8xKJbxpGVtn1IqN9/giphy.gif?cid=6c09b952r5sx3nm5spjq19ubges9vbn7u1etfmtz2erkbuui&rid=giphy.gif&ct=s">
+            <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+              <h1 class="title-font text-lg font-medium text-indigo-400 mb-3">Eat healthy</h1>
+              <p class="leading-relaxed">A healthy diet typically includes foods from all of the major food groups,
+                including fruits and vegetables of many colors.It includes eating nutritious foods.</p>
+            </div>
+          </div>
+        </div>
+        <div class="lg:w-1/3 sm:w-1/2 p-4">
+          <div class="flex relative">
+            <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center"
+              src="https://i.pinimg.com/originals/9e/15/1e/9e151e510d0c62dae3ada7d1eeaa9054.gif">
+            <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+              <h1 class="title-font text-lg font-medium text-indigo-400 mb-3">Avoid Exposure to carcinogenic chemicals</h1>
+              <p class="leading-relaxed">A few well-known carcinogens are asbestos, nickel, cadmium, radon, vinyl chloride, benzidene, and benzene.  </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="text-gray-600 body-font bg-[#F3F3Fd]">
+    <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+      <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+        <img class="w-12" src="assets/iit.png" alt="" srcset="">
+        <span class="ml-3 text-xl">&#169; Exploratory Project</span>
+      </a>
+      <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">2023
+        IIT(BHU) | All rights reserved.
+      </p>
+    </div>
+  </section>
+
+  <button x-data="topBtn" @click="scrolltoTop" id="topButton"
+    class="fixed z-10 hidden p-3 bg-gray-100 rounded-full shadow-md bottom-5 right-10 animate-bounce">
+    <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 10l7-7m0 0l7 7m-7-7v18">
+      </path>
+    </svg>
+  </button>
+
+  <script>
+    document.addEventListener('alpine:init', () => {
+      Alpine.data('topBtn', () => ({
+        scrolltoTop() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+      }));
+    });
+
+    const topBtn = document.getElementById("topButton");
+    window.onscroll = () => {
+      (document.body.scrollTop > 55 || document.documentElement.scrollTop > 55) ?
+        topBtn.classList.remove("hidden") : topBtn.classList.add("hidden");
+
+    }
+  </script>
+
 </body>
+
 </html>
