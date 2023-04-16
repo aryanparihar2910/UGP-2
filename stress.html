@@ -1,51 +1,168 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Stress-Strain Project</title>
-    <link rel="icon" type="image/x-icon" href="">
-	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
-    <link rel="stylesheet" href="stress.css">
-  </head>
-  <body>
-	<header>
-		<nav class="container">
-            <img src="assets/cent.png" width="100 px" height="auto">
-			<ul>
-				<li><a href="#">Home</a></li> <!--Main Explo Site Link-->
-				<li><a href="#">About</a></li> <!--Main Explo Site About Section Link-->
-			</ul>
-		</nav>
-	</header>
-	<section id="section">
-		<div class="container">
-			<div class="container">
-			<h2>Welcome to Stress-Strain Error Estimation Model</h2>
-		    </div>
-			<div class="container">
-			<p>We have created a model that helps you find the Mean Absolute Error(MAE) from the stress strain curve. The model uses ANN and is an application of deep learning and gives extremely accurate value. It is a part of a larger exploratory project taken under Prof. Srihari Dodla, IIT BHU.</p>
-			<a href="https://tushar2930-stress-strain-streamlit-app-ldgr8r.streamlit.app/" class="button">Go To Website</a><!--Model Site Link-->
-		    </div>
-		</div>
-	</section>
-	<section id="about">
-		<div class="container">
-		  <div class="container">
-		  <h2>About</h2>
-		  </div>
-		  <div>
-		  <p>Here's some in-depth information about my website. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fringilla risus non enim tincidunt, vel suscipit orci tempor. Donec ut ex aliquam, imperdiet est ut, rhoncus eros. Sed ut diam eu diam feugiat commodo. Nunc ultricies sem sit amet nisi pulvinar, sit amet elementum velit ornare.</p>
-		  <p>Donec commodo velit ac turpis molestie vehicula. Fusce tempor metus eu augue tempor, quis ultricies orci egestas. Nulla vulputate dolor ac ante fermentum, a tempus est elementum. Sed porttitor, risus quis tempor placerat, nunc libero tristique arcu, sed auctor mauris enim non mauris. Curabitur non dictum tellus. Phasellus ac commodo nisl. Nulla tincidunt lacinia libero. Aliquam pretium ullamcorper ultricies. Morbi vel elit ac lacus viverra luctus at vel quam.</p>
-		  </div>
-		</div>
-		<div class="container">
-		<a href="" class="button">Documentation</a> <!--GitHub Link-->
-	    </div>
-		</section>
-	  </section>
-	<footer>
-		<div class="container">
-			<p>&copy; 2023 Exploratory Project. All rights reserved.</p>
-		</div>
-	</footer>
+<html class="scroll-smooth" lang="en">
+
+<head>
+  <title>Stress-Strain</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+  <link rel="icon" type="image/x-icon" href="assets/stress.webp">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script defer src="https://unpkg.com/alpinejs@3.2.3/dist/cdn.min.js"></script>
+  <script src="https://unpkg.com/@lottiefiles/lottie-interactivity@latest/dist/lottie-interactivity.min.js"></script>
+</head>
+
+<body>
+
+  <section id="navbar" class="z-[100] fixed text-gray-600 body-font  bg-gradient-to-r from-white to-[#ececfc] w-full">
+    <div class="container mx-auto flex flex-wrap p-5 xl:px-10 xl:py-6 flex-col md:flex-row items-center">
+      <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+        <img class="w-12" src="assets/stress.webp" alt="" srcset="">
+        <span
+          class="ml-3 text-2xl text-bold bg-gradient-to-r from-gray-600 to-gray-800 inline-block text-transparent bg-clip-text">Stress-Strain</span>
+      </a>
+      <nav class="md:ml-auto flex text-black flex-wrap items-center text-base justify-center space-x-8">
+        <a href="index.html" class="cursor-pointer hover:scale-105 hover:underline hover:font-bold duration-300">&larr; Back to home</a>
+        <a href="#basics" class="cursor-pointer hover:scale-105 hover:underline hover:font-bold duration-300">Basics</a>
+        <a href="#graph" class="cursor-pointer hover:scale-105 hover:underline hover:font-bold duration-300">Graph</a>
+        <a href="#practical" class="cursor-pointer hover:scale-105 hover:underline hover:font-bold duration-300">Usage</a>
+      </nav>
+
+    </div>
+  </section>
+
+  
+  <section id="basics" class="body-font w-full ">
+    <div class="container mx-auto flex flex-col md:flex-row px-5 py-20  items-center space-x-5">
+
+      <div
+        class="lg:flex-grow md:w-1/2 lg:pl-4 md:pl-6 flex flex-col md:items-start md:text-left items-center text-center">
+        <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-black underline underline-offset-4">
+          Basics
+        </h1>
+        <p class="text-gray-500">Strain is defined as the amount of relative deformation caused by a force acting on an object, whereas stress is defined as the force acting per unit area of an object. A stress-strain curve for a material provides the relationship between stress and strain in engineering. It is obtained by gradually applying load to a test coupon and measuring the deformation to determine the stress and strain.
+
+        </p>
+        
+      </div>
+      <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+        <img class="object-cover object-center mt-16 rounded" alt="hero"
+          src="https://thumbs.gfycat.com/BonyImpressiveInchworm-size_restricted.gif">
+      </div>
+    </div>
+  </section>
+
+  <section id="graph" class="text-gray-600 body-font bg-gray-50">
+    <div class="container mx-auto flex px-5 py-20 md:flex-row flex-col items-center space-x-5">
+
+        <div
+          class="lg:flex-grow md:w-1/2 lg:pl-4 md:pl-6 flex flex-col md:items-start md:text-left items-center text-center">
+          <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-black underline underline-offset-4">
+            Graphical Analysis
+          </h1>
+          <p class="text-gray-500">Almost all metals behave like elastic objects over a specific range. This range varies for different metals and is affected by factors such as mechanical properties, atmospheric exposure (corrosion), grain size, heat treatment, and working temperature. <br> <br>
+            Initially, the material follows Hooke's law. The strain will be proportional to stress. It means that the ratio of stress to strain will be a constant (Young's Modulus of Elasticity). <br> <br> As the material moves towards plastic region of deformation, the relationship of stress-strain would follow the equation : &#963; = a+b&#949;^(n), where &#963; is the stress, &#949; is the plastic strain. a, b, n are the constants of the expression of plastic behavior.
+            <br> <br> <p class="font-semibold">Now We have created a model which analyses and predicts this graph using various ML techniques. Wanna Try it?
+            </p> 
+            <div class="mt-4">
+              <a href="https://tushar2930-stress-strain-streamlit-app-ldgr8r.streamlit.app/" class="inline-block bg-blue-500 hover:bg-blue-600 hover:scale-105 duration-300 px-5 py-2 text-lg font-semibold text-white rounded-lg hover:border-2 hover:border-black">
+               Let's Try it!
+              </a>
+            </div> </p>
+          
+        </div>
+        <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+          <img class="object-cover object-center mt-16 rounded" alt="hero"
+            src="assets/graph.png">
+        </div>
+      </div>
+    
+  </section>
+
+  
+  <section id="practical" class="text-gray-600 body-font bg-gray-100">
+    <div class="container mx-auto flex px-5 py-20 md:flex-row flex-col items-center space-x-5">
+
+        <div
+          class="lg:flex-grow md:w-1/2 lg:pl-4 md:pl-6 flex flex-col md:items-start md:text-left items-center text-center">
+          <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-black underline underline-offset-4">
+            Practical Analysis of Stress-Strain
+          </h1>
+          <p class="text-gray-500"><p class="font-semibold">Materials science:</p>Stress-strain analysis is commonly used in materials science to study the properties of different materials, such as metals, polymers, and ceramics. This information can be used to design new materials with improved properties, or to optimize the performance of existing materials.
+             <br> <br>
+            <p class="font-semibold">Engineering: </p>It is widely used in engineering to design and test structures and mechanical components. Engineers can use stress-strain analysis to determine the maximum load that a structure or component can withstand, and to predict its behavior under different types of loads.
+             <br> <br>
+            <p class="font-semibold">Biomechanics:</p> Stress-strain analysis is used in biomechanics to study the behavior of biological tissues and structures, such as bones and joints. This information can be used to design medical implants, such as hip replacements, that are durable and safe for use in the human body.
+             <br> <br>
+            <p class="font-semibold">Aerospace:</p>It is used extensively in aerospace engineering to design and test aircraft and spacecraft components. This includes everything from the materials used to construct the vehicles, to the shape and design of the components themselves.
+             <br> <br>
+            <p class="font-semibold">Automotive: </p>Stress-strain analysis is used in the automotive industry to design and test components such as engines, transmissions, and suspension systems. Engineers can use stress-strain analysis to optimize the performance of these components, as well as to ensure their safety and durability.</p>
+          
+        </div>
+        <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0 space-y-2">
+          <img class="object-cover object-center mt-16 rounded" alt="hero"
+            src="https://thumbs.gfycat.com/UnfitCriminalGermanwirehairedpointer-max-1mb.gif">
+            <img class="object-cover object-center mt-16 rounded" alt="hero"
+            src="https://i.pinimg.com/originals/6e/c8/fa/6ec8fa35800b339aa060d70d67edcf03.gif">
+        </div>
+      </div>
+    
+  </section>
+
+  <section id="info" class="bg-gray-200 body-font">
+    <div class="container mx-auto flex px-5 py-8 md:flex-col flex-row space-y-5">
+      <h2 class="text-3xl font-semibold tracking-tight text-gray-900">
+        Want more Information
+      </h2>
+      
+      <div class="mt-6">
+        <a href="https://docs.google.com/document/d/1ei6jAXMOhmgi6A_QE-Pc_ouingxt9xTv1oNm3kYbw4Q/edit" target="_blank" class="inline-block bg-blue-500 hover:bg-blue-600 hover:scale-105 duration-300 px-4 py-2 text-lg font-semibold text-white rounded-lg hover:border-2 hover:border-black">
+         Yes, why not!
+        </a>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="about" class="text-gray-600 body-font bg-[#F3F3Fd]">
+    <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+      <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+        <img class="w-12" src="assets/iit.png" alt="" srcset="">
+        <span class="ml-3 text-xl">&#169; Exploratory Project</span>
+      </a>
+      <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">2023
+        IIT(BHU) | All rights reserved.
+      </p>
+    </div>
+  </section>
+
+
+  <button x-data="topBtn" @click="scrolltoTop" id="topButton"
+    class="fixed z-10 hidden p-3 bg-gray-100 rounded-full shadow-md bottom-5 right-10 animate-bounce">
+    <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 10l7-7m0 0l7 7m-7-7v18">
+      </path>
+    </svg>
+  </button>
+
+  <script>
+    document.addEventListener('alpine:init', () => {
+      Alpine.data('topBtn', () => ({
+        scrolltoTop() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+      }));
+    });
+
+    const topBtn = document.getElementById("topButton");
+    window.onscroll = () => {
+      (document.body.scrollTop > 55 || document.documentElement.scrollTop > 55) ?
+        topBtn.classList.remove("hidden") : topBtn.classList.add("hidden");
+
+    }
+  </script>
+
+
+
 </body>
+
 </html>

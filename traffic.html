@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="en">
+
+<head>
+  <title>Roads and Traffic</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+  <link rel="icon" type="image/x-icon" href="assets/traffic.webp">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script defer src="https://unpkg.com/alpinejs@3.2.3/dist/cdn.min.js"></script>
+  </head>
+
+<body>
+
+  <section id="navbar" class="z-[100] fixed text-gray-600 body-font  bg-gradient-to-r from-white to-[#ececfc] w-full">
+    <div class="container mx-auto flex flex-wrap p-5 xl:px-10 xl:py-6 flex-col md:flex-row items-center">
+      <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+        <img class="w-12" src="assets/traffic.webp" alt="" srcset="">
+        <span
+          class="ml-3 text-2xl text-bold bg-gradient-to-r from-gray-600 to-gray-800 inline-block text-transparent bg-clip-text">Roads and Traffic</span>
+      </a>
+      <nav class="md:ml-auto flex text-black flex-wrap items-center text-base justify-center space-x-8">
+        <a href="index.html" class="cursor-pointer hover:scale-105 hover:underline hover:font-bold duration-300">&larr; Back to home</a>
+        <a href="#object" class="cursor-pointer hover:scale-105 hover:underline hover:font-bold duration-300">Object Detection</a>
+        <a href="#road" class="cursor-pointer hover:scale-105 hover:underline hover:font-bold duration-300">Road Segmentation</a>
+      </nav>
+
+    </div>
+  </section>
+
+  
+  <section id="object" class="body-font w-full ">
+    <div class="container mx-auto flex flex-col md:flex-row px-5 py-20  items-center space-x-5">
+
+      <div
+        class="lg:flex-grow md:w-1/2 lg:pl-4 md:pl-6 flex flex-col md:items-start md:text-left items-center text-center">
+        <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-black underline underline-offset-4">
+          Object Detection
+        </h1>
+        <p class="text-gray-500">For detecting objects we will be using yolo v3 architecture. YOLO (You Only Look Once) is an object detection algorithm that can identify objects in an image and provide their locations, sizes, and classes in real-time. YOLO uses a single neural network to predict bounding boxes and class probabilities directly from full images in a single evaluation.
+        </p>
+        <div class="flex flex-row space-x-5">
+            <a href="https://docs.google.com/document/d/1hIOElJmxUgPEw7_csig7HLr3RoSYaWwruT55QYvNY1Y/edit" target="_blank" class="md:mt-6 inline-flex items-center px-5 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 hover:scale-105 duration-300 ">
+            Documentation
+            <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+            </a>
+            <a href="https://github.com/ashutoshthakur454/Yolo_object_detection" target="_blank" class="md:mt-6 inline-flex items-center px-5 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 hover:scale-105 duration-300 ">
+            Github
+            <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+            </a>
+          </div>
+      </div>
+      <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+        <img class="object-cover object-center mt-16 rounded" alt="hero"
+          src="assets/object.gif">
+      </div>
+    </div>
+  </section>
+
+  <section id="road" class="text-gray-600 body-font bg-gray-50">
+    <div class="container mx-auto flex px-5 py-20 md:flex-row flex-col items-center space-x-5">
+
+        <div
+          class="lg:flex-grow md:w-1/2 lg:pl-4 md:pl-6 flex flex-col md:items-start md:text-left items-center text-center">
+          <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-black underline underline-offset-4">
+            Road-Segmentation
+          </h1>
+          <p class="text-gray-500">In a road segmentation problem, given an input image we have to identify where the roads are in that image. With the advent of deep learning we got rid of such hand crafting techniques wherein the computer will automatically learn the parameters given a diverse set of data. We will be using Fully Convolutional Networks (FCNs) for road segmentation.FCNs were one of the first techniques that introduced a method of segmentation end to end.</p>
+          <div class="flex flex-row space-x-5">
+            <a href="https://docs.google.com/document/d/1vFfrKnbEtDaR8hAO-R7aRVG21HxKwh9MwyY0B-uM_Fk/edit" target="_blank" class="md:mt-6 inline-flex items-center px-5 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 hover:scale-105 duration-300">
+            Documentation
+            <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+            </a>
+            <a href="https://github.com/ashutoshthakur454/Road_segmentation" target="_blank" class="md:mt-6 inline-flex items-center px-5 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 hover:scale-105 duration-300">
+            Github
+            <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+            </a>
+          </div>
+        </div>
+        <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+          <img class="object-cover object-center mt-16 rounded" alt="hero"
+            src="assets/roads.gif">
+        </div>
+
+        
+      </div>
+    
+  </section>
+
+  
+  
+
+
+  <section id="about" class="text-gray-600 body-font bg-[#F3F3Fd]">
+    <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+      <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+        <img class="w-12" src="assets/iit.png" alt="" srcset="">
+        <span class="ml-3 text-xl">&#169; Exploratory Project</span>
+      </a>
+      <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">2023
+        IIT(BHU) | All rights reserved.
+      </p>
+    </div>
+  </section>
+
+
+  <button x-data="topBtn" @click="scrolltoTop" id="topButton"
+    class="fixed z-10 hidden p-3 bg-gray-100 rounded-full shadow-md bottom-5 right-10 animate-bounce">
+    <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 10l7-7m0 0l7 7m-7-7v18">
+      </path>
+    </svg>
+  </button>
+
+  <script>
+    document.addEventListener('alpine:init', () => {
+      Alpine.data('topBtn', () => ({
+        scrolltoTop() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+      }));
+    });
+
+    const topBtn = document.getElementById("topButton");
+    window.onscroll = () => {
+      (document.body.scrollTop > 55 || document.documentElement.scrollTop > 55) ?
+        topBtn.classList.remove("hidden") : topBtn.classList.add("hidden");
+
+    }
+  </script>
+
+
+
+</body>
+
+</html>
