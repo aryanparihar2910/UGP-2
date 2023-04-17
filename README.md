@@ -49,6 +49,9 @@ The graph of the plastic region would follow the function a+bx^(n). Hence our mo
 
 <img width="1430" alt="Screenshot 2023-04-17 at 5 52 04 PM" src="https://user-images.githubusercontent.com/116455750/232483044-9a4ef4fd-6533-4ffd-adeb-e52e5ff5f6e6.png">
 
+<img width="1430" alt="Screenshot 2023-04-17 at 5 57 56 PM" src="https://user-images.githubusercontent.com/116455750/232484029-00406b40-332a-4b87-b4c6-bcda925dac8b.png">
+
+
 
 ## Roads and Traffic
 
