@@ -33,7 +33,6 @@ https://user-images.githubusercontent.com/116455750/232206564-896d2006-8bd6-47c1
 
 
 
-
 3 . Detection of pneumonia with the help of chest X-ray images.
 
 <img width="1437" alt="Screenshot 2023-04-15 at 3 05 21 PM" src="https://user-images.githubusercontent.com/116455750/232206355-5d22b24b-ad56-4dfa-b996-761e1ec60aff.png">
@@ -47,11 +46,22 @@ https://user-images.githubusercontent.com/116455750/232206564-896d2006-8bd6-47c1
 We built a ML model which would predict the suitable values of a,b and n which would fit the graph of experimental data of stress-strain values of different materials. 
 
 The graph of the plastic region would follow the function a+bx^(n). Hence our model would give the most apt values to fit the data. Also it would predict the errors between the analytical and experimental results.
+
+<img width="1430" alt="Screenshot 2023-04-17 at 5 52 04 PM" src="https://user-images.githubusercontent.com/116455750/232483044-9a4ef4fd-6533-4ffd-adeb-e52e5ff5f6e6.png">
+
+
 ## Roads and Traffic
 
 We used the yolo v3 architecture to identify objects in an image and provide their locations, sizes and classes in real time. 
 
+<img width="1430" alt="Screenshot 2023-04-17 at 5 52 48 PM" src="https://user-images.githubusercontent.com/116455750/232483191-5cb8d62d-4edd-475f-b2e4-7e2849883146.png">
+
+
 Alongwith we did road segmentation on a given video for the autonomous vehicles to know where they can drive. We used Fully Convolutional Networks for this task
+
+<img width="1430" alt="Screenshot 2023-04-17 at 5 52 57 PM" src="https://user-images.githubusercontent.com/116455750/232483260-b3a02e4b-71af-4330-a703-5f2c69a0e6cc.png">
+
+
 ## Authors
 
 <img width="1437" alt="Screenshot 2023-04-13 at 2 40 54 AM" src="https://user-images.githubusercontent.com/116455750/231586024-671f5451-9452-4df2-807a-c41b7e02deed.png">
