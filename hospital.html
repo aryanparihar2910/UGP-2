@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="icon" type="image/x-icon" href="/assets/hospitalfavicon_io/favicon-16x16.png">
@@ -19,9 +22,9 @@
         <div class="container mx-auto flex flex-wrap p-5 xl:px-10 xl:py-6 flex-col md:flex-row items-center">
             <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
                 <img class="w-12" src="assets/hospital-icon.png" alt="" srcset="">
-                <span class="ml-3 text-2xl text-bold bg-gradient-to-r from-green-600 to-indigo-700 inline-block text-transparent bg-clip-text">e-Asptal</span>
+                <span class="ml-3 text-2xl text-bold bg-gradient-to-r from-green-600 to-indigo-700 inline-block text-transparent bg-clip-text xl:max-2xl:text-3xl 2xl:text-4xl">e-Asptal</span>
             </a>
-            <nav class="md:ml-auto flex text-black flex-wrap items-center text-base justify-center space-x-8">
+            <nav class="md:ml-auto flex text-black flex-wrap items-center text-base justify-center space-x-8 xl:text-lg" style="font-family: 'Lato', sans-serif;">
                 <a href="index.html" class="cursor-pointer hover:scale-105 hover:underline hover:font-bold duration-300">&larr; Back to home</a>
                 <a href="#services" class="cursor-pointer hover:scale-105 hover:underline hover:font-bold duration-300">Services</a>
                 <a href="#about" class="cursor-pointer hover:scale-105 hover:underline hover:font-bold duration-300">About</a>
@@ -39,12 +42,12 @@
                     <img class="w-6" src="https://img.icons8.com/ultraviolet/40/null/heart-health.png"/>
                 </div>
                 <div>
-                    <h1 class="animate__animated animate__backInRight title-font sm:text-4xl text-3xl mb-4 xl:ml-24 font-medium bg-gradient-to-r from-blue-700 via-indigo-800 to-blue-800 inline-block text-transparent bg-clip-text">
+                    <h1 class="animate__animated animate__backInRight title-font sm:text-4xl text-3xl xl:max-2xl:text-4xl 2xl:text-5xl mb-4 xl:ml-24 font-medium bg-gradient-to-r from-blue-700 via-indigo-800 to-blue-800 inline-block text-transparent bg-clip-text" >
                         One Stop Solution 
                     </h1>
-                    <h2 class="animate__animated animate__backInLeft title-font sm:text-4xl text-3xl mb-4 xl:ml-24 font-medium text-black">for all your medical needs.</h2>
+                    <h2 class="animate__animated animate__backInLeft title-font sm:text-4xl text-3xl xl:max-2xl:text-4xl 2xl:text-5xl mb-4 xl:ml-24 font-medium text-black">for all your medical needs.</h2>
                 </div> 
-                <p class="mb-8 leading-relaxed animate__animated animate__fadeIn xl:ml-24">ML based models which predict the likelihood of various diseases.</p>
+                <p class="mb-8 leading-relaxed xl:max-2xl:text-base 2xl:text-lg animate__animated animate__fadeIn xl:ml-24" style="font-family: 'Lato', sans-serif;">ML based models which predict the likelihood of various diseases.</p>
             </div>
             <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
                 <img class="object-cover object-center rounded" alt="hero" src="assets/doctor.png">
@@ -52,7 +55,7 @@
         </div>
     </section>
 
-    <section id="services" class="text-gray-600 body-font overflow-hidden bg-gradient-to-b from-[#F3F3FD] to-white h-fit">
+    <section id="services" class="text-gray-600 body-font overflow-hidden bg-gradient-to-b from-[#F3F3FD] to-white h-fit" style="font-family: 'Lato', sans-serif;">
         <div class="container px-5 py-24 mx-auto">
             <div class="flex flex-col text-center w-full mb-20">
                 <h1 class="sm:text-3xl ml-24 text-2xl font-normal title-font mb-2 bg-gradient-to-r from-indigo-600 to-indigo-700 inline-block text-transparent bg-clip-text text-left">FEATURES WE PROVIDE</h1>                                
@@ -66,9 +69,9 @@
                         
                             <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900">SARS-COV-2</h5>
                         
-                        <p class="mb-3 font-normal text-gray-700 ">Detect the possibilty of a person having Covid-19 by scanned images</p>
+                        <p class="mb-3 font-normal text-gray-700 xl:max-2xl:text-base 2xl:text-lg ">Detect the possibilty of a person having Covid-19 by scanned images</p>
                         <a href="https://tushar2930-covid-detection-app-07syae.streamlit.app/" target="_blank" class="md:mt-6 inline-flex items-center px-5 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300">
-                            Try It !
+                            Try It!
                             <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
                         </a>
                         <a href="covid.html"  class="md:mt-6 inline-flex items-center px-5 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300">
@@ -85,9 +88,9 @@
                         
                             <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900">Brain Tumour</h5>
                         
-                        <p class="mb-3 font-normal text-gray-700 ">Know the likelihood of occurence of malicious tumour in brain</p>
+                        <p class="mb-3 font-normal text-gray-700 xl:max-2xl:text-base 2xl:text-lg">Know the likelihood of occurence of malicious tumour in brain</p>
                         <a href="https://tushar2930-brain-tumor-app-0ziz0l.streamlit.app/" target="_blank" class="md:mt-6 inline-flex items-center px-5 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300">
-                            Try It !
+                            Try It!
                             <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
                         </a>
                         <a href="brain.html"  class="md:mt-6 inline-flex items-center px-5 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300">
@@ -104,9 +107,9 @@
                         
                             <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900">Pneumonia</h5>
                         
-                        <p class="mb-3 font-normal text-gray-700 ">Provides the possibilty of infection of pnenomia in lungs</p>
+                        <p class="mb-3 font-normal text-gray-700 xl:max-2xl:text-base 2xl:text-lg">Provides the possibilty of infection of pnenomia in lungs</p>
                         <a href="https://tushar2930-pneumonia-app-8ai3tq.streamlit.app/" target="_blank" class="md:mt-6 inline-flex items-center px-5 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300">
-                            Try It !
+                            Try It!
                             <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
                         </a>
                         <a href="pneumonia.html" class="md:mt-6 inline-flex items-center px-5 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300">

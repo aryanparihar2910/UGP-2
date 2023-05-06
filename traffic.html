@@ -4,6 +4,9 @@
 <head>
   <title>Roads and Traffic</title>
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
   <link rel="icon" type="image/x-icon" href="assets/traffic.webp">
   <script src="https://cdn.tailwindcss.com"></script>
   <script defer src="https://unpkg.com/alpinejs@3.2.3/dist/cdn.min.js"></script>
@@ -16,9 +19,9 @@
       <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
         <img class="w-12" src="assets/traffic.webp" alt="" srcset="">
         <span
-          class="ml-3 text-2xl text-bold bg-gradient-to-r from-gray-600 to-gray-800 inline-block text-transparent bg-clip-text">Roads and Traffic</span>
+          class="ml-3 text-2xl xl:max-2xl:text-3xl 2xl:text-4xl text-bold bg-gradient-to-r from-gray-600 to-gray-800 inline-block text-transparent bg-clip-text">Roads and Traffic</span>
       </a>
-      <nav class="md:ml-auto flex text-black flex-wrap items-center text-base justify-center space-x-8">
+      <nav class="md:ml-auto flex text-black flex-wrap items-center text-base justify-center space-x-8 xl:text-lg" style="font-family: 'Lato', sans-serif;">
         <a href="index.html" class="cursor-pointer hover:scale-105 hover:underline hover:font-bold duration-300">&larr; Back to home</a>
         <a href="#object" class="cursor-pointer hover:scale-105 hover:underline hover:font-bold duration-300">Object Detection</a>
         <a href="#road" class="cursor-pointer hover:scale-105 hover:underline hover:font-bold duration-300">Road Segmentation</a>
@@ -33,10 +36,10 @@
 
       <div
         class="lg:flex-grow md:w-1/2 lg:pl-4 md:pl-6 flex flex-col md:items-start md:text-left items-center text-center">
-        <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-black underline underline-offset-4">
+        <h1 class="title-font sm:text-4xl text-3xl xl:max-2xl:text-3xl 2xl:text-4xl mb-4 font-medium text-black underline underline-offset-4">
           Object Detection
         </h1>
-        <p class="text-gray-500">For detecting objects we will be using yolo v3 architecture. YOLO (You Only Look Once) is an object detection algorithm that can identify objects in an image and provide their locations, sizes, and classes in real-time. YOLO uses a single neural network to predict bounding boxes and class probabilities directly from full images in a single evaluation.
+        <p class="text-gray-500 xl:max-2xl:text-base 2xl:text-lg" style="font-family: 'Lato', sans-serif;">For detecting objects we will be using yolo v3 architecture. YOLO (You Only Look Once) is an object detection algorithm that can identify objects in an image and provide their locations, sizes, and classes in real-time. YOLO uses a single neural network to predict bounding boxes and class probabilities directly from full images in a single evaluation.
         </p>
         <div class="flex flex-row space-x-5">
             <a href="https://docs.google.com/document/d/1hIOElJmxUgPEw7_csig7HLr3RoSYaWwruT55QYvNY1Y/edit" target="_blank" class="md:mt-6 inline-flex items-center px-5 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 hover:scale-105 duration-300 ">
@@ -61,10 +64,10 @@
 
         <div
           class="lg:flex-grow md:w-1/2 lg:pl-4 md:pl-6 flex flex-col md:items-start md:text-left items-center text-center">
-          <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-black underline underline-offset-4">
+          <h1 class="title-font sm:text-4xl text-3xl xl:max-2xl:text-3xl 2xl:text-4xl mb-4 font-medium text-black underline underline-offset-4">
             Road-Segmentation
           </h1>
-          <p class="text-gray-500">In a road segmentation problem, given an input image we have to identify where the roads are in that image. With the advent of deep learning we got rid of such hand crafting techniques wherein the computer will automatically learn the parameters given a diverse set of data. We will be using Fully Convolutional Networks (FCNs) for road segmentation.FCNs were one of the first techniques that introduced a method of segmentation end to end.</p>
+          <p class="text-gray-500 xl:max-2xl:text-base 2xl:text-lg" style="font-family: 'Lato', sans-serif;">In a road segmentation problem, given an input image we have to identify where the roads are in that image. With the advent of deep learning we got rid of such hand crafting techniques wherein the computer will automatically learn the parameters given a diverse set of data. We will be using Fully Convolutional Networks (FCNs) for road segmentation.FCNs were one of the first techniques that introduced a method of segmentation end to end.</p>
           <div class="flex flex-row space-x-5">
             <a href="https://docs.google.com/document/d/1vFfrKnbEtDaR8hAO-R7aRVG21HxKwh9MwyY0B-uM_Fk/edit" target="_blank" class="md:mt-6 inline-flex items-center px-5 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 hover:scale-105 duration-300">
             Documentation

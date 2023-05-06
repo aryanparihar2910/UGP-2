@@ -4,6 +4,9 @@
 <head>
   <title>Pneumonia</title>
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
   <link rel="icon" type="image/x-icon" href="assets/pneumonia.png">
   <script src="https://cdn.tailwindcss.com"></script>
   <script defer src="https://unpkg.com/alpinejs@3.2.3/dist/cdn.min.js"></script>
@@ -16,9 +19,9 @@
       <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
         <img class="w-12" src="assets/pneumonia.png" alt="" srcset="">
         <span
-          class="ml-3 text-2xl text-bold bg-gradient-to-r from-pink-400 to-pink-700 inline-block text-transparent bg-clip-text">Pneumonia</span>
+          class="ml-3 text-2xl text-bold bg-gradient-to-r from-pink-400 to-pink-700 inline-block text-transparent bg-clip-text xl:max-2xl:text-3xl 2xl:text-4xl">Pneumonia</span>
       </a>
-      <nav class="md:ml-auto flex text-black flex-wrap items-center text-base justify-center space-x-8">
+      <nav class="md:ml-auto flex text-black flex-wrap items-center text-base justify-center space-x-8 xl:text-lg" style="font-family: 'Lato', sans-serif;">
         <a href="hospital.html" class="cursor-pointer hover:scale-105 hover:underline hover:font-bold duration-300">&larr; Back to home</a>
         <a href="#model" class="cursor-pointer hover:scale-105 hover:underline hover:font-bold duration-300">Model</a>
         <a href="#about" class="cursor-pointer hover:scale-105 hover:underline hover:font-bold duration-300">Timeline</a>
@@ -66,10 +69,10 @@
 
       <div
         class="lg:flex-grow md:w-1/2 lg:pl-4 md:pl-6 flex flex-col md:items-start md:text-left items-center text-center">
-        <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-black underline underline-offset-4">
+        <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-black underline underline-offset-4 2xl:text-5xl">
           How the Model Works?
         </h1>
-        <p class="text-gray-500">We have created a model that detects whether a patient is infected with pneumonia by
+        <p class="text-gray-500 xl:max-2xl:text-base 2xl:text-lg" style="font-family: 'Lato', sans-serif;">We have created a model that detects whether a patient is infected with pneumonia by
           analyzing the Chest X-ray of the patient uploaded by the user. The model utilizes various deep learning models, including Artificial Neural Network (ANN), Convolutional Neural Network (CNN), and MobileNet V2, for pneumonia detection. The code is written in Python using the TensorFlow and Keras libraries.
         </p>
         <div class="btn space-x-4 mt-6">
@@ -88,7 +91,7 @@
 
     <div class="container px-5 py-24 mx-auto flex flex-wrap">
       <div class="flex flex-col text-center w-full mb-20">
-        <h1 class="sm:text-4xl text-3xl font-medium title-font mb-4 text-gray-900 underline underline-offset-4">Timeline
+        <h1 class="sm:text-4xl text-3xl xl:max-2xl:text-3xl 2xl:text-4xl font-medium title-font mb-4 text-gray-900 underline underline-offset-4">Timeline
         </h1>
       </div>
 
@@ -105,9 +108,9 @@
             <img src = "assets/pn1.png"/>
           </div>
           <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
-            <h2 class="font-medium title-font text-gray-900 mb-1 text-xl">The bacteria seen for the first time
+            <h2 class="font-medium title-font text-gray-900 mb-1 text-xl xl:max-2xl:text-xl 2xl:text-2xl">The bacteria seen for the first time
             </h2>
-            <p class="leading-relaxed">In 1875, German pathologist Edwin Klebs observed pneumonia bacteria under a microscope for the first time, and this was a huge step forward in the fight against the pulmonary disease. Then, in the 1880’s, Carl Friedlander and Albert Frankel identified two of the most common bacterial causes of pneumonia.
+            <p class="leading-relaxed xl:max-2xl:text-base 2xl:text-lg" style="font-family: 'Lato', sans-serif;">In 1875, German pathologist Edwin Klebs observed pneumonia bacteria under a microscope for the first time, and this was a huge step forward in the fight against the pulmonary disease. Then, in the 1880’s, Carl Friedlander and Albert Frankel identified two of the most common bacterial causes of pneumonia.
 
             </p>
           </div>
@@ -129,8 +132,8 @@
             </svg>
           </div>
           <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
-            <h2 class="font-medium title-font text-gray-900 mb-1 text-xl">Treatments discovered</h2>
-            <p class="leading-relaxed">By the 1930s, a plethora of ways to handle pneumonia had been developed. Infection rates were still relatively high during this period, but mortality from pneumonia dropped around the world. The development of the antibiotic penicillin played a key role in this decline.</p>
+            <h2 class="font-medium title-font text-gray-900 mb-1 text-xl xl:max-2xl:text-xl 2xl:text-2xl">Treatments discovered</h2>
+            <p class="leading-relaxed xl:max-2xl:text-base 2xl:text-lg" style="font-family: 'Lato', sans-serif;">By the 1930s, a plethora of ways to handle pneumonia had been developed. Infection rates were still relatively high during this period, but mortality from pneumonia dropped around the world. The development of the antibiotic penicillin played a key role in this decline.</p>
           </div>
         </div>
       </div>
@@ -147,8 +150,8 @@
             <img src = "assets/pn3.png"/>
           </div>
           <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
-            <h2 class="font-medium title-font text-gray-900 mb-1 text-xl">Pneumonia is Expensive</h2>
-            <p class="leading-relaxed">In 2010, $17 Billion was spent on pneumonia itself globally. Pfizer, the manfacturer of PVC7, replaces it with an extended version, PCV13</p>
+            <h2 class="font-medium title-font text-gray-900 mb-1 text-xl xl:max-2xl:text-xl 2xl:text-2xl">Pneumonia is Expensive</h2>
+            <p class="leading-relaxed xl:max-2xl:text-base 2xl:text-lg" style="font-family: 'Lato', sans-serif;">In 2010, $17 Billion was spent on pneumonia itself globally. Pfizer, the manfacturer of PVC7, replaces it with an extended version, PCV13</p>
           </div>
         </div>
       </div>
@@ -165,8 +168,8 @@
             <img src = "assets/pn2.svg"/>
           </div>
           <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
-            <h2 class="font-medium title-font text-gray-900 mb-1 text-xl">More variants</h2>
-            <p class="leading-relaxed">92 serotypes of streptococcus pneumoniae are documented by the time. Pneumonia reveals to be the most common reason for admission to the hospital after an emergency department visit in the United States for infants and children. In 2013 United States FDA approves use of Prevnar 13 vaccine in older children and teens (6-17 years).[</p>
+            <h2 class="font-medium title-font text-gray-900 mb-1 text-xl xl:max-2xl:text-xl 2xl:text-2xl">More variants</h2>
+            <p class="leading-relaxed xl:max-2xl:text-base 2xl:text-lg" style="font-family: 'Lato', sans-serif;">92 serotypes of streptococcus pneumoniae are documented by the time. Pneumonia reveals to be the most common reason for admission to the hospital after an emergency department visit in the United States for infants and children. In 2013 United States FDA approves use of Prevnar 13 vaccine in older children and teens (6-17 years).[</p>
           </div>
         </div>
       </div>
@@ -176,7 +179,7 @@
   <section id="precautions" class="text-gray-600 body-font bg-gray-100">
     <div class="container px-5 py-24 mx-auto">
       <div class="flex flex-col text-center w-full mb-20">
-        <h1 class="sm:text-4xl text-3xl font-medium title-font mb-4 text-gray-900 underline underline-offset-4">
+        <h1 class="sm:text-4xl text-3xl xl:max-2xl:text-3xl 2xl:text-4xl font-medium title-font mb-4 text-gray-900 underline underline-offset-4">
           Precautions</h1>
       </div>
       <div class="flex flex-wrap -m-4">
@@ -185,10 +188,10 @@
             <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center"
               src="https://media.tenor.com/zHtGK9kd9WUAAAAC/washing-hand-animated-wash-hands.gif">
             <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100 hover:border-2 hover:border-indigo-300">
-              <h1 class="title-font text-lg font-medium text-indigo-400 mb-3">
+              <h1 class="title-font text-lg xl:max-2xl:text-lg 2xl:text-xl font-medium text-indigo-400 mb-3">
                 Wash hands on regular intervals
               </h1>
-              <p class="leading-relaxed">Handwashing with soap removes germs from hands. This helps prevent infections
+              <p class="leading-relaxed xl:max-2xl:text-base 2xl:text-lg" style="font-family: 'Lato', sans-serif;">Handwashing with soap removes germs from hands. This helps prevent infections
                 because: People frequently touch their eyes, nose, and mouth without even realizing it.</p>
             </div>
           </div>
@@ -198,8 +201,8 @@
             <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center"
               src="https://media.tenor.com/1jSUXrwGQD4AAAAi/no-smoking-no-smoking-sign.gif">
             <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100 hover:border-2 hover:border-indigo-300">
-              <h1 class="title-font text-lg font-medium text-indigo-400 mb-3">Quit Smoking</h1>
-              <p class="leading-relaxed">When you quit smoking, your immune system is no longer exposed to tar and nicotine. It will become stronger, and you will be less likely to get sick.</p>
+              <h1 class="title-font text-lg xl:max-2xl:text-lg 2xl:text-xl font-medium text-indigo-400 mb-3">Quit Smoking</h1>
+              <p class="leading-relaxed xl:max-2xl:text-base 2xl:text-lg" style="font-family: 'Lato', sans-serif;">When you quit smoking, your immune system is no longer exposed to tar and nicotine. It will become stronger, and you will be less likely to get sick.</p>
             </div>
           </div>
         </div>
@@ -208,8 +211,8 @@
             <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center"
               src="https://img.etimg.com/thumb/msid-79592586,width-1200,height-900,imgsize-261105,resizemode-8/20201205_piramal-vials_01.jpg">
             <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100 hover:border-2 hover:border-indigo-300">
-              <h1 class="title-font text-lg font-medium text-indigo-400 mb-3">Get your protection</h1>
-              <p class="leading-relaxed">It protects you and your child from many serious and potentially deadly diseases. It helps to make community healthy and ready to fight diseases</p>
+              <h1 class="title-font text-lg xl:max-2xl:text-lg 2xl:text-xl font-medium text-indigo-400 mb-3">Get your protection</h1>
+              <p class="leading-relaxed xl:max-2xl:text-base 2xl:text-lg" style="font-family: 'Lato', sans-serif;">It protects you and your child from many serious and potentially deadly diseases. It helps to make community healthy and ready to fight diseases</p>
             </div>
           </div>
         </div>
@@ -218,8 +221,8 @@
             <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center"
               src="https://i.pinimg.com/originals/b4/3d/b7/b43db78f64c8e26fb580bb7f00b66222.gif">
             <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100 hover:border-2 hover:border-indigo-300">
-              <h1 class="title-font text-lg font-medium text-indigo-400 mb-3">Get regular checkups</h1>
-              <p class="leading-relaxed">It's no secret that the longer a disease or sickness has to develop, the worse it gets. Regular check-ups with a family physician can help diagnose a disease before it spreads and turns into a serious condition. </p>
+              <h1 class="title-font text-lg xl:max-2xl:text-lg 2xl:text-xl font-medium text-indigo-400 mb-3">Get regular checkups</h1>
+              <p class="leading-relaxed xl:max-2xl:text-base 2xl:text-lg" style="font-family: 'Lato', sans-serif;">It's no secret that the longer a disease or sickness has to develop, the worse it gets. Regular check-ups with a family physician can help diagnose a disease before it spreads and turns into a serious condition. </p>
             </div>
           </div>
         </div>
@@ -228,8 +231,8 @@
             <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center"
               src="https://media2.giphy.com/media/4k8xKJbxpGVtn1IqN9/giphy.gif?cid=6c09b952r5sx3nm5spjq19ubges9vbn7u1etfmtz2erkbuui&rid=giphy.gif&ct=s">
             <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100 hover:border-2 hover:border-indigo-300">
-              <h1 class="title-font text-lg font-medium text-indigo-400 mb-3">Eat healthy</h1>
-              <p class="leading-relaxed">A healthy diet typically includes foods from all of the major food groups,
+              <h1 class="title-font text-lg xl:max-2xl:text-lg 2xl:text-xl font-medium text-indigo-400 mb-3">Eat healthy</h1>
+              <p class="leading-relaxed xl:max-2xl:text-base 2xl:text-lg" style="font-family: 'Lato', sans-serif;">A healthy diet typically includes foods from all of the major food groups,
                 including fruits and vegetables of many colors.It includes eating nutritious foods.</p>
             </div>
           </div>
@@ -239,8 +242,8 @@
             <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center"
               src="https://thumbs.gfycat.com/OilySilkyAustraliankelpie-max-1mb.gif">
             <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100 hover:border-2 hover:border-indigo-300">
-              <h1 class="title-font text-lg font-medium text-indigo-400 mb-3">Keep your immune system strong</h1>
-              <p class="leading-relaxed">Our immune system, a network of intricate stages and pathways in the body, protects us against these harmful microbes as well as certain diseases.  </p>
+              <h1 class="title-font text-lg xl:max-2xl:text-lg 2xl:text-xl font-medium text-indigo-400 mb-3">Keep your immune system strong</h1>
+              <p class="leading-relaxed xl:max-2xl:text-base 2xl:text-lg" style="font-family: 'Lato', sans-serif;">Our immune system, a network of intricate stages and pathways in the body, protects us against these harmful microbes as well as certain diseases.  </p>
             </div>
           </div>
         </div>
