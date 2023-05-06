@@ -25,7 +25,8 @@
       <nav class="md:ml-auto flex text-black flex-wrap items-center text-base justify-center space-x-8 xl:text-lg " style="font-family: 'Lato', sans-serif;">
         <a href="index.html" class="cursor-pointer hover:scale-105 hover:underline hover:font-bold duration-300">&larr; Back to home</a>
         <a href="#basics" class="cursor-pointer hover:scale-105 hover:underline hover:font-bold duration-300">Basics</a>
-        <a href="#graph" class="cursor-pointer hover:scale-105 hover:underline hover:font-bold duration-300">Graph</a>
+        <a href="#graph" class="cursor-pointer hover:scale-105 hover:underline hover:font-bold duration-300">Normal</a>
+        <a href="#graph2" class="cursor-pointer hover:scale-105 hover:underline hover:font-bold duration-300">Shear</a>
         <a href="#practical" class="cursor-pointer hover:scale-105 hover:underline hover:font-bold duration-300">Usage</a>
       </nav>
 
@@ -59,7 +60,7 @@
         <div
           class="lg:flex-grow md:w-1/2 lg:pl-4 md:pl-6 flex flex-col md:items-start md:text-left items-center text-center">
           <h1 class="title-font sm:text-4xl text-3xl xl:max-2xl:text-3xl 2xl:text-4xl mb-4 font-medium text-black underline underline-offset-4">
-            Graphical Analysis
+            Stress v/s Strain
           </h1>
           <p class="text-gray-500 xl:max-2xl:text-base 2xl:text-lg" style="font-family: 'Lato', sans-serif;">Almost all metals behave like elastic objects over a specific range. This range varies for different metals and is affected by factors such as mechanical properties, atmospheric exposure (corrosion), grain size, heat treatment, and working temperature. <br> <br>
             Initially, the material follows Hooke's law. The strain will be proportional to stress. It means that the ratio of stress to strain will be a constant (Young's Modulus of Elasticity). <br> <br> As the material moves towards plastic region of deformation, the relationship of stress-strain would follow the equation : &#963; = a+b&#949;^(n), where &#963; is the stress, &#949; is the plastic strain. a, b, n are the constants of the expression of plastic behavior.
@@ -79,7 +80,33 @@
       </div>
     
   </section>
+ 
+  <section id="graph2" class="text-gray-600 body-font bg-gray-50">
+    <div class="container mx-auto flex px-5 py-20 md:flex-row flex-col items-center space-x-5">
 
+        <div
+          class="lg:flex-grow md:w-1/2 lg:pl-4 md:pl-6 flex flex-col md:items-start md:text-left items-center text-center">
+          <h1 class="title-font sm:text-4xl text-3xl xl:max-2xl:text-3xl 2xl:text-4xl mb-4 font-medium text-black underline underline-offset-4">
+            Shear Stress v/s Shear Strain
+          </h1>
+          <p class="text-gray-500 xl:max-2xl:text-base 2xl:text-lg" style="font-family: 'Lato', sans-serif;">The material behaviour is modeled by a single-crystal elastic-viscoplastic model based on isomorphic elastic ranges. The plastic transformation P describes the change of lattice vectors in the elastic law due to slip. At room temperature, the sample material shows a bcc crystal structure. Slip occurs if the resolved shear stress, τ<sup>&alpha;</sup>=ĈT<sup>~2PK</sup>. Shear-rates are calculated by the viscous ansatz of Hutchinson (1976) and two additional material parameters are needed.
+            <br> <br>The strain-rate sensitivity m is derived from strain-rate experiments for a polycrystalline mild steel ES. The critical resolved shear stress is described by τ<sub>c</sub> = τ<sub>c0</sub> + (τ<sub>s</sub> - τ<sub>c0</sub>)( 1 - exp(-&theta;<sub>0</sub>&gamma;/τ<sub>s</sub>) + &theta;<sub>&#8734;</sub>&gamma;, where τ<sub>c0</sub> is critical resolved shear stress, τ<sub>s</sub> is saturation stress, θ<sub>0</sub> is initial hardening modulus, θ<sub>∞</sub> is a remaining hardening modulus and &gamma; is shear strain. This model has been implemented in a user subroutine (UMAT) of the finite element code ABAQUS.
+            <br> <br> <p class="font-semibold">Enough explanation, time to visualize 
+            </p> 
+            <div class="mt-4">
+              <a href="https://tushar2930-shear-stress-strain-explo-app-u1217e.streamlit.app/" target="_blank" class="inline-block bg-blue-500 hover:bg-blue-600 hover:scale-105 duration-300 px-5 py-2 text-lg font-semibold text-white rounded-lg hover:border-2 hover:border-black">
+               Let's Try it!
+              </a>
+            </div> </p>
+          
+        </div>
+        <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+          <img class="object-cover object-center mt-16 rounded" alt="hero"
+            src="assets/shearstressstrain.png">
+        </div>
+      </div>
+    
+  </section>
   
   <section id="practical" class="text-gray-600 body-font bg-gray-100">
     <div class="container mx-auto flex px-5 py-20 md:flex-row flex-col items-center space-x-5">
