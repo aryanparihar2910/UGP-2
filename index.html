@@ -28,23 +28,30 @@
 </head>
 
 <body>
-    <section id="navbar" class="z-[1] body-font w-full fixed bg-white">
+    <section id="navbar" class="z-[1] body-font w-full fixed bg-white shadow-md">
         <div id="nabbar" class="container-fluid mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-            <a class="flex title-font font-medium items-center text-black mb-4 md:ml-6 md:mb-0">
-                <img class="w-12" src="assets/iit.png" alt="" srcset="">
-                <span class="ml-3 text-xl xl:max-2xl:text-2xl 2xl:text-2xl font-bold">ME-492 Undergraduate Project</span>
-            </a>
-            <nav class="md:ml-auto text-black flex flex-wrap items-center text-base xl:text-lg justify-center" style="font-family: 'Lato', sans-serif;">
-                <a href="#home" class="mr-5 px-4 hover:scale-105 duration-200  cursor-pointer">Home</a>
-                <a href="#purpose" class="mr-5 px-4 hover:scale-105 duration-200  cursor-pointer">Purpose</a>
-                <a href="#weather" class="mr-5 px-4 hover:scale-105 duration-200  cursor-pointer">Weather</a>
-                <a href="#news" class="mr-5 px-4 hover:scale-105 duration-200  cursor-pointer">News</a>
-                <a href="#projects" class="mr-5 px-4 hover:scale-105 duration-200  cursor-pointer">Projects</a>
-                <a href="#members" class="mr-5 px-4 hover:scale-105 duration-200  cursor-pointer">Members</a>
-               
-            </nav>
-        </div>
-    </section>
+          <!-- Logo and Title -->
+          <a class="flex title-font font-medium items-center text-black mb-4 md:ml-6 md:mb-0">
+            <img class="w-12" src="assets/iit.png" alt="IIT Logo" />
+            <span class="ml-3 text-xl xl:max-2xl:text-2xl 2xl:text-2xl font-bold">ME-492 Undergraduate Project</span>
+          </a>
+      
+          
+          <nav class="md:ml-auto text-black flex flex-wrap items-center text-base xl:text-lg justify-center space-x-4">
+            <a href="#purpose" class="px-3 py-2 hover:scale-105 duration-200 cursor-pointer">Purpose</a>
+            <a href="#weather" class="px-3 py-2 hover:scale-105 duration-200 cursor-pointer">Weather</a>
+            <a href="#news" class="px-3 py-2 hover:scale-105 duration-200 cursor-pointer">News</a>
+            <a href="#reddit" class="px-3 py-2 hover:scale-105 duration-200 cursor-pointer">Reddit</a>
+            <a href="#satellite" class="px-3 py-2 hover:scale-105 duration-200 cursor-pointer">Satellite</a>
+            <a href="#projects" class="px-3 py-2 hover:scale-105 duration-200 cursor-pointer">Projects</a>
+            <a href="#members" class="px-3 py-2 hover:scale-105 duration-200 cursor-pointer">Members</a>
+          </nav>
+      
+      
+      </section>
+      
+      
+
 
     <!-- <section id="home">
         <div class="iitimage">
@@ -59,7 +66,7 @@
                 <h1 class="title-font sm:text-4xl text-3xl xl:text-4xl mb-4 font-medium text-black underline underline-offset-4" >
                     Purpose
                 </h1>
-                <p class="text-gray-700 xl:max-2xl:text-base 2xl:text-lg" style="font-family: 'Lato', sans-serif;">Our UG Project consisted of two parts : One being developing our model and the other using an already made hydrodynamic model for predicting important aspects after a disaster like level of rain, severity, casualities and injured and distribution of warehouses.  </p>
+                <p class="text-gray-700 xl:max-2xl:text-base 2xl:text-lg" style="font-family: 'Lato', sans-serif;">Our UG Project consisted of two parts : One being developing an AI model and the other providng in-depth knowledge around floods to help in Decision making about the response to counter it.</p>
                 
             </div>
             <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
@@ -225,7 +232,7 @@
                                     stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
                                     <path d="M20 6L9 17l-5-5"></path>
                                 </svg>
-                            </span>Hydrodynamic models
+                            </span>Integration of LLMs
                         </p>
                         <p class="flex items-center text-gray-700 mb-2">
                             <span
@@ -234,10 +241,10 @@
                                     stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
                                     <path d="M20 6L9 17l-5-5"></path>
                                 </svg>
-                            </span>Suggestion for best practices
+                            </span>Satellite Imaging and Maps
                         </p>
                         
-                        <a href="To be made" class="cursor-pointer flex mt-auto items-center text-white bg-[#731edb] border-0 py-2 px-4 w-full focus:outline-none hover:bg-[#36205d] rounded">Try it Out
+                        <a href="https://github.com/aryanparihar2910/UGP-2" target="_blank" class="cursor-pointer flex mt-auto items-center text-white bg-[#731edb] border-0 py-2 px-4 w-full focus:outline-none hover:bg-[#36205d] rounded">Try it Out
                             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
                                 stroke-width="2" class="w-4 h-4 ml-auto" viewBox="0 0 24 24">
                                 <path d="M5 12h14M12 5l7 7-7 7"></path>
@@ -256,7 +263,7 @@
         <div class="container px-5 py-24 mx-auto">
             <div class="flex flex-col text-center w-full mb-20">
                 <h1 class="text-3xl font-medium title-font mb-4 text-black underline underline-offset-4 ">OUR TEAM</h1>
-                <p class="lg:w-2/3 mx-auto leading-relaxed text-base text-gray-500 xl:max-2xl:text-base 2xl:text-lg" style="font-family: 'Lato', sans-serif;">Our team is made up of highly skilled and motivated individuals who have experience with machine learning, data analysis, and web development. We collaborated to develop and perfect ML models for floods, and used hydrodynamic models for remote sensing, rain and weather data  using a deep understanding of the latest technologies and methodologies. <br><br> We were able to create a user-friendly website that provided valuable insights and information to a wide range of users, including field professionals, engineers, and disaster relief authorities, thanks to our collaborative efforts. Our team's dedication to excellence and innovation were critical to the project's success, and we are proud of the results we achieved.
+                <p class="lg:w-2/3 mx-auto leading-relaxed text-base text-gray-500 xl:max-2xl:text-base 2xl:text-lg" style="font-family: 'Lato', sans-serif;">Our team is made up of highly skilled and motivated individuals who have experience with machine learning, data analysis, and web development. We collaborated to develop and perfect ML models for floods, and provided remote sensing, rain and weather data  using a deep understanding of the latest technologies and methodologies for making an informed decision about floods. <br><br> We were able to create a user-friendly website that provided valuable insights and information to a wide range of users, including field professionals, engineers, and disaster relief authorities, thanks to our collaborative efforts. Our team's dedication to excellence and innovation were critical to the project's success, and we are proud of the results we achieved.
                 </p>
             </div>
             <div class="flex flex-col md:flex-row -m-4">
@@ -266,8 +273,8 @@
                             src="https://static.vecteezy.com/system/resources/previews/004/865/921/original/programmer-people-concept-use-laptop-and-programming-code-program-icon-spreading-with-modern-flat-style-free-vector.jpg">
                         <div class="w-full">
                             <h2 class="title-font font-medium text-xl text-black">Aryan Parihar</h2>
-                            <h3 class="text-gray-500 text-sm mb-3">Frontend Developer</h3>
-                            <p class="mb-4 to-gray-500 " style="font-family: 'Lato', sans-serif;">Worked on the frontend and UI part of the web application.</p>
+                            <h3 class="text-gray-500 text-sm mb-3">Frontend Engineer</h3>
+                            <p class="mb-4 to-gray-500 " style="font-family: 'Lato', sans-serif;">Worked on UI/UX and built the News section and its APIs</p>
                             <span name="links" class="inline-flex">
                                 <a href="https://www.linkedin.com/in/aryan-parihar-436206252/" target="_blank" class="ml-2 cursor-pointer stroke-[#731edb]">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="20px"
@@ -294,7 +301,7 @@
                         <div class="w-full">
                             <h2 class="title-font font-medium text-xl text-black">Ashutosh Thakur</h2>
                             <h3 class="text-gray-500 text-sm mb-3">ML Engineer</h3>
-                            <p class="mb-4 text-gray-500" style="font-family: 'Lato', sans-serif;">Tweeked and researched upon various Learning models</p>
+                            <p class="mb-4 text-gray-500" style="font-family: 'Lato', sans-serif;">Tweeked and researched upon various Machine Learning models</p>
                             <span name="links" class="inline-flex">
                                 <a href="https://www.linkedin.com/in/ashutosh-thakur-831811231/" target="_blank" class="ml-2 cursor-pointer stroke-[#731edb]">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="20px"
@@ -320,8 +327,8 @@
                             src="https://checkealos.com/wp-content/uploads/2023/07/Windows-cuate.svg">
                         <div class="w-full">
                             <h2 class="title-font font-medium text-xl text-black">Priyanshu Gautam</h2>
-                            <h3 class="text-gray-500 text-sm mb-3">Frontend Developer</h3>
-                            <p class="mb-4 text-gray-500" style="font-family: 'Lato', sans-serif;">Designed the frontend architecture and styling of the GUI .</p>
+                            <h3 class="text-gray-500 text-sm mb-3">Frontend Engineer</h3>
+                            <p class="mb-4 text-gray-500" style="font-family: 'Lato', sans-serif;">Built the Weather Section and helped on streamlining the development</p>
                             <span name="links" class="inline-flex">
                                 <a href="https://www.linkedin.com/in/priyanshu-gautam-5450461b9/" target="_blank" class="ml-2 cursor-pointer stroke-[#731edb]">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="20px"
@@ -347,8 +354,8 @@
                             src="https://thumbs.dreamstime.com/b/programmer-sitting-table-working-coding-chatting-laptop-online-backend-frontend-developer-man-home-office-guy-202147846.jpg">
                         <div class="w-full">
                             <h2 class="title-font font-medium text-xl text-black">Kushagr Kapoor</h2>
-                            <h3 class="text-gray-500 text-sm mb-3">Backend Developer</h3>
-                            <p class="mb-4 text-gray-500" style="font-family: 'Lato', sans-serif;">Helped in understanding and display of important datapoints on the GUI</p>
+                            <h3 class="text-gray-500 text-sm mb-3">Backend Engineer</h3>
+                            <p class="mb-4 text-gray-500" style="font-family: 'Lato', sans-serif;">Built the Reddit section and worked on integrating LLMs</p>
                             <span name="links" class="inline-flex">
                                 <a href="https://www.linkedin.com/in/kushagr-kapoor-166391228/" target="_blank" class="ml-2 cursor-pointer stroke-[#731edb]">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="20px"
@@ -375,7 +382,7 @@
                         <div class="w-full">
                             <h2 class="title-font font-medium text-xl text-black">Tushar Shingane</h2>
                             <h3 class="text-gray-500 text-sm mb-3">Backend Developer</h3>
-                            <p class="mb-4 text-gray-500" style="font-family: 'Lato', sans-serif;">Established the link between website and the Hydrodynamic Learning models.</p>
+                            <p class="mb-4 text-gray-500" style="font-family: 'Lato', sans-serif;">Worked on Google Earth to use satellite imaging and filtered the information</p>
                             <span name="links" class="inline-flex">
                                 <a href="https://www.linkedin.com/in/tushar-shingane/" target="_blank" class="ml-2 cursor-pointer stroke-[#731edb]">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="20px"
