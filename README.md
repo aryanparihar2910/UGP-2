@@ -5,15 +5,15 @@
 
 This project integrates data from various sources to provide comprehensive insights into floods, leveraging spatial analysis, advanced summarization, and real-time data visualization.
 
-<img width="1436" alt="Screenshot 2025-01-08 at 9 14 49 PM" src="https://github.com/user-attachments/assets/b1e3814f-a68a-4a4d-9282-c3b7f78722e6" />
+<img width="634" alt="Screenshot 2025-01-08 at 9 14 49 PM" src="https://github.com/user-attachments/assets/b1e3814f-a68a-4a4d-9282-c3b7f78722e6" />
 
-<img width="1436" alt="Screenshot 2025-01-08 at 9 15 08 PM" src="https://github.com/user-attachments/assets/6d4df26c-fb16-4ead-b1b9-6f621e6029c3" />
+<img width="634" alt="Screenshot 2025-01-08 at 9 15 08 PM" src="https://github.com/user-attachments/assets/6d4df26c-fb16-4ead-b1b9-6f621e6029c3" />
 
 ## News Articles
   * Aggregates the latest news about floods from reliable sources.
   * Enables users to stay informed about current flood-related events.
 
-<img width="986" alt="Screenshot 2025-01-08 at 9 18 59 PM" src="https://github.com/user-attachments/assets/b98f6009-69eb-4fe6-9c9a-f4a366ae4305" />
+<img width="634" alt="Screenshot 2025-01-08 at 9 18 59 PM" src="https://github.com/user-attachments/assets/b98f6009-69eb-4fe6-9c9a-f4a366ae4305" />
 
 <img width="634" alt="Screenshot 2025-01-08 at 9 19 14 PM" src="https://github.com/user-attachments/assets/619e3cbf-e664-4e88-8d4b-249782803e40" />
 
@@ -63,7 +63,7 @@ This project integrates data from various sources to provide comprehensive insig
 
 ## Authors
 
-<img width="1427" alt="Screenshot 2025-01-08 at 9 34 29 PM" src="https://github.com/user-attachments/assets/51451f2d-b6bb-45b2-9afb-cd171dbf76fe" />
+<img width="634" alt="Screenshot 2025-01-08 at 9 34 29 PM" src="https://github.com/user-attachments/assets/51451f2d-b6bb-45b2-9afb-cd171dbf76fe" />
 
 - [@Aryan Parihar](https://github.com/aryanparihar2910)
 - [@Ashutosh Thakur](https://github.com/ashutoshthakur454)
