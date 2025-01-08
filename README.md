@@ -1,77 +1,73 @@
 
-# Exploratory Project
+# Flood Analysis and Information Hub
 
-This was our project in 2nd year of college in which we integrated web development with the principles of machine learning.
-Our project consisted of 3 parts :
+## 🌍 About the Project
 
-<img width="1437" alt="Screenshot 2023-04-13 at 2 13 04 AM" src="https://user-images.githubusercontent.com/116455750/231585077-16ab23ec-cb4d-423a-a3da-8b5d7067aeef.png">
+This project integrates data from various sources to provide comprehensive insights into floods, leveraging spatial analysis, advanced summarization, and real-time data visualization.
 
-<img width="1437" alt="Screenshot 2023-04-13 at 2 13 27 AM" src="https://user-images.githubusercontent.com/116455750/231585223-9d128f8a-99ff-41d7-ab2f-6a4b9f461cb8.png">
+<img width="1436" alt="Screenshot 2025-01-08 at 9 14 49 PM" src="https://github.com/user-attachments/assets/b1e3814f-a68a-4a4d-9282-c3b7f78722e6" />
 
-## e-Asptal
+<img width="1436" alt="Screenshot 2025-01-08 at 9 15 08 PM" src="https://github.com/user-attachments/assets/6d4df26c-fb16-4ead-b1b9-6f621e6029c3" />
 
-<img width="1437" alt="Screenshot 2023-04-13 at 2 13 38 AM" src="https://user-images.githubusercontent.com/116455750/231585313-63235dd0-dab6-4212-baf7-347dd3ec074f.png">
+## News Articles
+  * Aggregates the latest news about floods from reliable sources.
+  * Enables users to stay informed about current flood-related events.
 
-We created and deployed machine learning models for the following diseases or infections - 
+<img width="986" alt="Screenshot 2025-01-08 at 9 18 59 PM" src="https://github.com/user-attachments/assets/b98f6009-69eb-4fe6-9c9a-f4a366ae4305" />
 
-1 . Detection of Covid-19 with the help of chest CT scans.
-
-<img width="1437" alt="Screenshot 2023-04-13 at 7 07 48 PM" src="https://user-images.githubusercontent.com/116455750/231776510-8dc3b6c3-5c57-4b77-ad09-5d11ab486941.png">
-
-<img width="1437" alt="Screenshot 2023-04-15 at 3 03 55 PM" src="https://user-images.githubusercontent.com/116455750/232205863-6ce4382f-3f7e-4ff9-88d6-fb1ce1a22c59.png">
-
-<img width="1437" alt="Screenshot 2023-04-15 at 3 03 20 PM" src="https://user-images.githubusercontent.com/116455750/232205867-cd07a2d7-aa96-495a-ab95-bb7678c1c80a.png">
+<img width="634" alt="Screenshot 2025-01-08 at 9 19 14 PM" src="https://github.com/user-attachments/assets/619e3cbf-e664-4e88-8d4b-249782803e40" />
 
 
+## Reddit Insights
+ * Extracts and summarizes Reddit discussions relevant to floods.
+ * Helps understand community sentiment and crowd-sourced updates.
 
-2 . Predection of brain tumour with the use of brain CT scans. 
+<img width="634" alt="Screenshot 2025-01-08 at 9 19 25 PM" src="https://github.com/user-attachments/assets/298a3131-f38b-42fe-8136-8fdf05720bd5" />
 
-<img width="1437" alt="Screenshot 2023-04-15 at 3 04 19 PM" src="https://user-images.githubusercontent.com/116455750/232206224-44fa7fe5-2568-47a8-9e42-6e36e588b187.png">
-
-
-https://user-images.githubusercontent.com/116455750/232206564-896d2006-8bd6-47c1-bc28-44b70f46d72e.mp4
-
-
-
-3 . Detection of pneumonia with the help of chest X-ray images.
-
-<img width="1437" alt="Screenshot 2023-04-15 at 3 05 21 PM" src="https://user-images.githubusercontent.com/116455750/232206355-5d22b24b-ad56-4dfa-b996-761e1ec60aff.png">
+<img width="634" alt="Screenshot 2025-01-08 at 9 19 40 PM" src="https://github.com/user-attachments/assets/11513e6c-ccea-41ce-bfbf-04bde81e54b1" />
 
 
-<img width="1437" alt="Screenshot 2023-04-15 at 3 05 37 PM" src="https://user-images.githubusercontent.com/116455750/232206348-36d1916c-a4ef-42f4-ac04-82954f2fcd72.png">
+## Weather Information
+
+  * Provides real-time weather updates using OpenWeather data.
+  * Displays weather patterns and conditions that may contribute to floods.
+
+<img width="634" alt="Screenshot 2025-01-08 at 9 19 47 PM" src="https://github.com/user-attachments/assets/b2876734-c087-4b0a-9909-7b9628d202e8" />
+
+## Interactive Map
+
+  * Visualizes weather data, news events, and geographic information on a map interface.
+  * Offers a user-friendly way to explore flood-prone areas and real-time events.
+
+<img width="634" alt="Screenshot 2025-01-08 at 9 19 52 PM" src="https://github.com/user-attachments/assets/8a6dbe64-1de0-47be-a682-afc0865dd90a" />
+
+## Summarization with Groq LLM
+
+ * Uses the Groq LLM API (llama-3.1-70b-versatile) to summarize articles, Reddit posts, and other textual data.
+ * Delivers concise and actionable insights for users.
+
+## Spatial Analysis of Floods
+
+ * Conducts in-depth spatial analysis to identify flood-prone regions.
+ * Combines geospatial data with environmental variables to predict and understand flood behavior.
+ * Supports proactive planning and disaster management efforts.
+
+<img width="634" alt="Screenshot 2025-01-08 at 9 20 06 PM" src="https://github.com/user-attachments/assets/625aa123-bcbf-4c39-9da1-2ceae094a04f" />
+
+<img width="634" alt="Screenshot 2025-01-08 at 9 20 22 PM" src="https://github.com/user-attachments/assets/27daebf3-a906-4beb-9516-0cf875f82936" />
+
+<img width="634" alt="Screenshot 2025-01-08 at 9 20 51 PM" src="https://github.com/user-attachments/assets/46f95a07-5584-4f03-a707-f592adaaa115" />
 
 
-## Stress - Strain
-
-We built a ML model which would predict the suitable values of a,b and n which would fit the graph of experimental data of stress-strain values of different materials. 
-
-The graph of the plastic region would follow the function a+bx^(n). Hence our model would give the most apt values to fit the data. Also it would predict the errors between the analytical and experimental results.
-
-<img width="1430" alt="Screenshot 2023-04-17 at 5 52 04 PM" src="https://user-images.githubusercontent.com/116455750/232483044-9a4ef4fd-6533-4ffd-adeb-e52e5ff5f6e6.png">
-
-<img width="1430" alt="Screenshot 2023-04-17 at 5 57 56 PM" src="https://user-images.githubusercontent.com/116455750/232484029-00406b40-332a-4b87-b4c6-bcda925dac8b.png">
-
-
-
-## Roads and Traffic
-
-We used the yolo v3 architecture to identify objects in an image and provide their locations, sizes and classes in real time. 
-
-<img width="1430" alt="Screenshot 2023-04-17 at 5 52 48 PM" src="https://user-images.githubusercontent.com/116455750/232483191-5cb8d62d-4edd-475f-b2e4-7e2849883146.png">
-
-
-Alongwith we did road segmentation on a given video for the autonomous vehicles to know where they can drive. We used Fully Convolutional Networks for this task
-
-<img width="1430" alt="Screenshot 2023-04-17 at 5 52 57 PM" src="https://user-images.githubusercontent.com/116455750/232483260-b3a02e4b-71af-4330-a703-5f2c69a0e6cc.png">
 
 
 ## Authors
 
-<img width="1437" alt="Screenshot 2023-04-13 at 2 40 54 AM" src="https://user-images.githubusercontent.com/116455750/231586024-671f5451-9452-4df2-807a-c41b7e02deed.png">
-
+<img width="1427" alt="Screenshot 2025-01-08 at 9 34 29 PM" src="https://github.com/user-attachments/assets/51451f2d-b6bb-45b2-9afb-cd171dbf76fe" />
 
 - [@Aryan Parihar](https://github.com/aryanparihar2910)
 - [@Ashutosh Thakur](https://github.com/ashutoshthakur454)
 - [@Kushagr Kapoor](https://github.com/Kush-316)
 - [@Tushar Shingane](https://github.com/Tushar2930)
+- [@Priyanshu Gautam](https://github.com/p-gautam-17)
 
