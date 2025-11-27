@@ -1,4 +1,7 @@
 // Function to convert Unix timestamp to a readable date
+import dotenv from "dotenv";
+dotenv.config();
+
 function formatDate(utcSeconds) {
   const date = new Date(utcSeconds * 1000);
   return date.toLocaleDateString('en-US', {
@@ -11,7 +14,7 @@ function formatDate(utcSeconds) {
 }
 // Function to summarize posts using Groq API
 async function summarizePosts(postData) {
-  const apiKey = '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'; // Replace with your Groq API key
+  const apiKey = process.env.GROQ_API_KEY; 
   const url = 'https://api.groq.com/openai/v1/chat/completions';
 
   try {
