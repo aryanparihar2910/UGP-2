@@ -1,6 +1,9 @@
 // WEATHER
+import dotenv from "dotenv";
+
+dotenv.config();
 document.getElementById("getWeatherBtn").addEventListener("click", function() {
-    const apiKey = "1e4234a658c93be242483e867fcdfb6d"; // Replace with your OpenWeather API key
+    const apiKey = process.env.OPENWEATHER_API_KEY;
     const location = document.getElementById("location").value;
     const weatherResult = document.getElementById("weatherResult");
     const weatherData = document.getElementById("weatherData");
@@ -163,7 +166,7 @@ document.getElementById('fetchNewsButton').addEventListener('click', fetchNews);
 
 function fetchNews() {
   const location = document.getElementById('locationInput').value;
-  const apiKey = 'pub_55468bea61d11477a561d06eab168288084c6';  // Replace with your NewsData.io API key
+  const apiKey = process.env.NEWSDATA_API_KEY;  // Replace with your NewsData.io API key
   const url = `https://newsdata.io/api/1/news?apikey=${apiKey}&country=in&q=${location} AND (rain OR flood OR weather OR "relief operations")`;
 
   // Hide the "Get News" button and show the loading spinner
@@ -226,7 +229,7 @@ function displayNews(articles) {
 }
 async function getFloodSummary(articlesText) {
     const groqUrl = 'https://api.groq.com/openai/v1/chat/completions';  // Correct Groq API endpoint
-    const groqApiKey = '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';  // Replace with your Groq API key
+    const groqApiKey = process.env.GROQ_API_KEY// Replace with your Groq API key
 
     try {
         // Log the data being sent for debugging purposes
@@ -277,34 +280,3 @@ async function getFloodSummary(articlesText) {
         document.getElementById('floodSummary').innerText = 'Error fetching summary. Please try again later.';
     }
 }
-
-
-// async function summarizePosts(postData) {
-//     const apiKey = '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'; // Replace with your Groq API key
-//     const url = 'https://api.groq.com/openai/v1/chat/completions'; // Ensure this is the correct Groq endpoint
-
-//     try {
-//         const response = await axios.post(url, {
-//             model: 'llama-3.1-70b-versatile', // Use the desired model from Groq's API
-//             messages: [
-//                 { 
-//                     role: 'user', 
-//                     content: `Summarize the following flood-related posts focusing on disaster information only:\n\n${postData}`
-//                 }
-//             ],
-//             max_tokens: 300 // Adjust the number of tokens to control the summary length
-//         }, {
-//             headers: {
-//                 'Authorization': `Bearer ${apiKey}`, // Include the API key in the Authorization header
-//                 'Content-Type': 'application/json'
-//             }
-//         });
-
-//         // Return the summarized content from the response
-//         return response.data.choices[0].message.content;
-//     } catch (error) {
-//         console.error('Error with Groq API:', error.response ? error.response.data : error.message);
-//         return "Error summarizing the posts.";
-//     }
-// }
-
